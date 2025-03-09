@@ -1,0 +1,92 @@
+/* עיצוב כללי לדף המנות */
+.restaurants-page {
+  font-family: 'Arial', sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #f4f4f4; /* צבע רקע בהיר */
+}
+
+/* Header – עיצוב אזור החיפוש */
+.search-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-header h2 {
+  color: #4FB3C2; /* תכלת */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-input, .category-input {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.search-input::placeholder, .category-input::placeholder {
+  color: #aaa;
+}
+
+/* רשימת מסעדות */
+.restaurants-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* כרטיס מסעדה */
+.restaurant-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.restaurant-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.restaurant-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* כותרת מנה */
+.restaurant-card h3 {
+  color: #4FB3C2; /* תכלת */
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* תיאור המנה */
+.restaurant-card p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* הודעה כשאין תוצאות */
+.no-results {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+  margin-top: 20px;
+}
