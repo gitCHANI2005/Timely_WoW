@@ -1,0 +1,84 @@
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\bin\Debug\net6.0\Repository.deps.json
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\bin\Debug\net6.0\Repository.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\bin\Debug\net6.0\Repository.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\Repository.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\refint\Repository.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\Repository.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\yoel\Desktop\Timely\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\yoel\Desktop\Timely\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\yoel\Desktop\Timely\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\yoel\Desktop\Timely\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Users\yoel\Desktop\Timely\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Repository\obj\Debug\net6.0\ref\Repository.dll

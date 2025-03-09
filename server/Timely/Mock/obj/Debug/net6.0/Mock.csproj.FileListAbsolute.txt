@@ -1,0 +1,102 @@
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\bin\Debug\net6.0\Mock.deps.json
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\bin\Debug\net6.0\Mock.runtimeconfig.json
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\bin\Debug\net6.0\Mock.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\bin\Debug\net6.0\Mock.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\bin\Debug\net6.0\Repository.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\bin\Debug\net6.0\Repository.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\Mock.csproj.AssemblyReference.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfoInputs.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfo.cs
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\Mock.csproj.CoreCompileInputs.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\Mock.csproj.CopyComplete
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\Mock.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\refint\Mock.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\Mock.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Mock\obj\Debug\net6.0\ref\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\bin\Debug\net6.0\Mock.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\bin\Debug\net6.0\Mock.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\bin\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\bin\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\Mock.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\Mock.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\refint\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Mock\obj\Debug\net6.0\ref\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\bin\Debug\net6.0\Mock.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\bin\Debug\net6.0\Mock.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\bin\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\bin\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\Mock.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\Mock.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\refint\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Mock\obj\Debug\net6.0\ref\Mock.dll
+C:\Users\yoel\Desktop\Timely\Mock\bin\Debug\net6.0\Mock.deps.json
+C:\Users\yoel\Desktop\Timely\Mock\bin\Debug\net6.0\Mock.runtimeconfig.json
+C:\Users\yoel\Desktop\Timely\Mock\bin\Debug\net6.0\Mock.dll
+C:\Users\yoel\Desktop\Timely\Mock\bin\Debug\net6.0\Mock.pdb
+C:\Users\yoel\Desktop\Timely\Mock\bin\Debug\net6.0\Repository.dll
+C:\Users\yoel\Desktop\Timely\Mock\bin\Debug\net6.0\Repository.pdb
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\Mock.csproj.AssemblyReference.cache
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfoInputs.cache
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfo.cs
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\Mock.csproj.Up2Date
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\Mock.dll
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\refint\Mock.dll
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\Mock.pdb
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
+C:\Users\yoel\Desktop\Timely\Mock\obj\Debug\net6.0\ref\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\bin\Debug\net6.0\Mock.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\bin\Debug\net6.0\Mock.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\bin\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\bin\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\Mock.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\Mock.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\Mock.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\Mock.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\refint\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Mock\obj\Debug\net6.0\ref\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\bin\Debug\net6.0\Mock.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\bin\Debug\net6.0\Mock.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\bin\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\bin\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\refint\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\ref\Mock.dll

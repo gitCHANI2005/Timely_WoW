@@ -1,0 +1,569 @@
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\appsettings.Development.json
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\appsettings.json
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Timely.exe
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Timely.deps.json
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Timely.runtimeconfig.json
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Timely.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Timely.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.OpenApi.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.csproj.AssemblyReference.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.AssemblyInfoInputs.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.AssemblyInfo.cs
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.csproj.CoreCompileInputs.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cs
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\staticwebassets.build.json
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\staticwebassets.development.json
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\scopedcss\bundle\Timely.styles.css
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.csproj.CopyComplete
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\refint\Timely.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\Timely.genruntimeconfig.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\obj\Debug\net6.0\ref\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\refint\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.pdb
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.csproj.AssemblyReference.cache
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.AssemblyInfoInputs.cache
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.AssemblyInfo.cs
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.csproj.CoreCompileInputs.cache
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.dll
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\refint\Timely.dll
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.pdb
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\appsettings.json
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Timely.exe
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Timely.deps.json
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Timely.runtimeconfig.json
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Timely.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Timely.pdb
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Autofac.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\AutoMapper.Contrib.Autofac.DependencyInjection.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Repository.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Service.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Repository.pdb
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Service.pdb
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.Timely.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.build.Timely.props
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Timely.props
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Timely.props
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\scopedcss\bundle\Timely.styles.css
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.csproj.Up2Date
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\Timely.genruntimeconfig.cache
+C:\Users\yoel\Desktop\Timely\Timely\obj\Debug\net6.0\ref\Timely.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Autofac.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\AutoMapper.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\AutoMapper.Contrib.Autofac.DependencyInjection.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Castle.Core.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\EntityFramework.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Moq.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.CodeDom.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.Collections.Immutable.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.Data.SqlClient.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.Drawing.Common.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.Runtime.Caching.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.Security.Permissions.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\System.Windows.Extensions.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Mock.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Repository.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Service.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Mock.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Repository.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\appsettings.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Timely.exe
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Timely.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Timely.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Timely.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Autofac.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\AutoMapper.Contrib.Autofac.DependencyInjection.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Moq.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.Timely.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.build.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\scopedcss\bundle\Timely.styles.css
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\Timely.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Timely\obj\Debug\net6.0\ref\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\appsettings.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Timely.exe
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Timely.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Timely.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Timely.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Autofac.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\AutoMapper.Contrib.Autofac.DependencyInjection.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Moq.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.Timely.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.build.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\scopedcss\bundle\Timely.styles.css
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\refint\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\Timely.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Timely\obj\Debug\net6.0\ref\Timely.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Moq.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Mock.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Mock.pdb
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Humanizer.dll
+C:\Users\yoel\Desktop\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Humanizer.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\appsettings.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Timely.exe
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Timely.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Timely.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Timely.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Autofac.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\AutoMapper.Contrib.Autofac.DependencyInjection.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Humanizer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\staticwebassets\msbuild.Timely.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\staticwebassets\msbuild.build.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\scopedcss\bundle\Timely.styles.css
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\refint\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\Timely.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Timely\obj\Debug\net6.0\ref\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\appsettings.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Timely.exe
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Timely.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Timely.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Timely.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Autofac.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\AutoMapper.Contrib.Autofac.DependencyInjection.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Humanizer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Mock.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Mock.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\staticwebassets\msbuild.Timely.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\staticwebassets\msbuild.build.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Timely.props
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\scopedcss\bundle\Timely.styles.css
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\refint\Timely.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\Timely.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Timely\obj\Debug\net6.0\ref\Timely.dll

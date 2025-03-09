@@ -1,0 +1,102 @@
+L:\שנה ב\Ai\תמר גולן\Timely\Service\bin\Debug\net6.0\Service.deps.json
+L:\שנה ב\Ai\תמר גולן\Timely\Service\bin\Debug\net6.0\Service.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Service\bin\Debug\net6.0\Service.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\Service.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\refint\Service.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\Service.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\Service.dll
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\yoel\Desktop\Timely\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\yoel\Desktop\Timely\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+C:\Users\yoel\Desktop\Timely\Service\bin\Debug\net6.0\Service.dll
+C:\Users\yoel\Desktop\Timely\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\yoel\Desktop\Timely\Service\bin\Debug\net6.0\Repository.dll
+C:\Users\yoel\Desktop\Timely\Service\bin\Debug\net6.0\Repository.pdb
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\Service.csproj.Up2Date
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\yoel\Desktop\Timely\Service\obj\Debug\net6.0\ref\Service.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+L:\שנה ב\Ai\תמר גולן\Timely\Service\bin\Debug\net6.0\Repository.dll
+L:\שנה ב\Ai\תמר גולן\Timely\Service\bin\Debug\net6.0\Repository.pdb
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+L:\שנה ב\Ai\תמר גולן\Timely\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\bin\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\Timely\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\bin\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\לימודים\Timely\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\bin\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\TimelyP\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\bin\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\ref\Service.dll

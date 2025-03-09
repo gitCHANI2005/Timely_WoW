@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yoel\\Desktop\\Timely\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\entity\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\entity\\owner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\entity\\menudose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\entity\\menudose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\entity\\extra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\entity\\extra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\entity\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\entity\\deliver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\entity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\entity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\entity\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|c:\\users\\yoel\\desktop\\timely\\timely\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|solutionrelative:timely\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C778B9DE-C2F2-4DD8-994B-8977AC0B6D7D}|Service\\Service.csproj|c:\\users\\yoel\\desktop\\timely\\service\\dtos\\storedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C778B9DE-C2F2-4DD8-994B-8977AC0B6D7D}|Service\\Service.csproj|solutionrelative:service\\dtos\\storedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|c:\\users\\yoel\\desktop\\timely\\timely\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|solutionrelative:timely\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|c:\\users\\yoel\\desktop\\timely\\timely\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|solutionrelative:timely\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D9D37F-A950-4B08-A383-90EC4D6B6FC2}|Mock\\Mock.csproj|c:\\users\\yoel\\desktop\\timely\\mock\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D9D37F-A950-4B08-A383-90EC4D6B6FC2}|Mock\\Mock.csproj|solutionrelative:mock\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C778B9DE-C2F2-4DD8-994B-8977AC0B6D7D}|Service\\Service.csproj|c:\\users\\yoel\\desktop\\timely\\service\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C778B9DE-C2F2-4DD8-994B-8977AC0B6D7D}|Service\\Service.csproj|solutionrelative:service\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C778B9DE-C2F2-4DD8-994B-8977AC0B6D7D}|Service\\Service.csproj|c:\\users\\yoel\\desktop\\timely\\service\\services\\mymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C778B9DE-C2F2-4DD8-994B-8977AC0B6D7D}|Service\\Service.csproj|solutionrelative:service\\services\\mymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|c:\\users\\yoel\\desktop\\timely\\repository\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E807FED5-0635-4C97-B4E1-47D607526A55}|Repository\\Repository.csproj|solutionrelative:repository\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|c:\\users\\yoel\\desktop\\timely\\timely\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|solutionrelative:timely\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95D9D37F-A950-4B08-A383-90EC4D6B6FC2}|Mock\\Mock.csproj|c:\\users\\yoel\\desktop\\timely\\mock\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D9D37F-A950-4B08-A383-90EC4D6B6FC2}|Mock\\Mock.csproj|solutionrelative:mock\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|c:\\users\\yoel\\desktop\\timely\\timely\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8A2DB93-7280-43B4-B573-CA8A00B3DC8D}|Timely\\Timely.csproj|solutionrelative:timely\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Owner.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Owner.cs",
+              "RelativeDocumentMoniker": "Repository\\Entity\\Owner.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Owner.cs",
+              "RelativeToolTip": "Repository\\Entity\\Owner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:53:58.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Order.cs",
+              "RelativeDocumentMoniker": "Repository\\Entity\\Order.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Order.cs",
+              "RelativeToolTip": "Repository\\Entity\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:53:57.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuDose.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\MenuDose.cs",
+              "RelativeDocumentMoniker": "Repository\\Entity\\MenuDose.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\MenuDose.cs",
+              "RelativeToolTip": "Repository\\Entity\\MenuDose.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:53:56.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Extra.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Extra.cs",
+              "RelativeDocumentMoniker": "Repository\\Entity\\Extra.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Extra.cs",
+              "RelativeToolTip": "Repository\\Entity\\Extra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:53:55.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Deliver.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Deliver.cs",
+              "RelativeDocumentMoniker": "Repository\\Entity\\Deliver.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Deliver.cs",
+              "RelativeToolTip": "Repository\\Entity\\Deliver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:53:55.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Customer.cs",
+              "RelativeDocumentMoniker": "Repository\\Entity\\Customer.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Customer.cs",
+              "RelativeToolTip": "Repository\\Entity\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:53:51.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Category.cs",
+              "RelativeDocumentMoniker": "Repository\\Entity\\Category.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\Category.cs",
+              "RelativeToolTip": "Repository\\Entity\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:48:52.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\City.cs",
+              "RelativeDocumentMoniker": "Repository\\Entity\\City.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Entity\\City.cs",
+              "RelativeToolTip": "Repository\\Entity\\City.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:48:51.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Class1.cs",
+              "RelativeDocumentMoniker": "Repository\\Class1.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Class1.cs",
+              "RelativeToolTip": "Repository\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T20:48:41.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repository",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Repository.csproj",
+              "RelativeToolTip": "Repository\\Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-27T20:48:45.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StoreDto.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Service\\Dtos\\StoreDto.cs",
+              "RelativeDocumentMoniker": "Service\\Dtos\\StoreDto.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Service\\Dtos\\StoreDto.cs",
+              "RelativeToolTip": "Service\\Dtos\\StoreDto.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T19:11:31.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MyMapper.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Service\\Services\\MyMapper.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\MyMapper.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Service\\Services\\MyMapper.cs",
+              "RelativeToolTip": "Service\\Services\\MyMapper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAxwBYAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T19:04:26.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "Timely\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "Timely\\Controllers\\StoreController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAIAxwCsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T19:04:11.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Timely\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Timely\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T19:30:32.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Repository\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repository\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T19:03:07.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Timely\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Timely\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAowCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T18:51:16.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Mock\\Class1.cs",
+              "RelativeDocumentMoniker": "Mock\\Class1.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Mock\\Class1.cs",
+              "RelativeToolTip": "Mock\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:32:15.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Mock\\DataBase.cs",
+              "RelativeDocumentMoniker": "Mock\\DataBase.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Mock\\DataBase.cs",
+              "RelativeToolTip": "Mock\\DataBase.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIAxwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:20:32.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Service\\Dtos\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Service\\Dtos\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Service\\Dtos\\CategoryDto.cs",
+              "RelativeToolTip": "Service\\Dtos\\CategoryDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T19:11:56.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Program.cs",
+              "RelativeDocumentMoniker": "Timely\\Program.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Program.cs",
+              "RelativeToolTip": "Timely\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:17:30.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "Timely\\Controllers\\CityController.cs",
+              "ToolTip": "C:\\Users\\yoel\\Desktop\\Timely\\Timely\\Controllers\\CityController.cs",
+              "RelativeToolTip": "Timely\\Controllers\\CityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T18:52:58.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
