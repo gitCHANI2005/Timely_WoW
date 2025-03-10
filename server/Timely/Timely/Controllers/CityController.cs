@@ -20,7 +20,7 @@ namespace Timely.Controllers
             _cityrepository = cityrepository;
         }
         [HttpGet]
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         public List<City> Get()
         {
             return _cityrepository.GetAll();

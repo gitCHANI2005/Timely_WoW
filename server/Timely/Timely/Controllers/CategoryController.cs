@@ -22,7 +22,7 @@ namespace Timely.Controllers
 
         // GET: api/<CategoryController>
         [HttpGet]
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         public List<CategoryDto> Get()
         {
             return _categoryService.getAll();
