@@ -55,17 +55,20 @@ const HomePage = () => {
     if (autocompleteRef.current) {
       const place = autocompleteRef.current.getPlace();
       if (place.geometry) {
-        setAddress(place.formatted_address);
-        setLocation({
+        const selectedLocation = {
+          address: place.formatted_address,
           lat: place.geometry.location.lat(),
           lon: place.geometry.location.lng(),
-        });
-        setError('');
+        };
+  
+        localStorage.setItem('userLocation', JSON.stringify(selectedLocation)); // שמירה ב-localStorage
+        navigate('/RestaurantDishes'); // מעבר לדף החדש
       } else {
         setError('כתובת לא תקפה, נסו שוב');
       }
     }
   };
+  
 
   return (
     <div className="home-page">

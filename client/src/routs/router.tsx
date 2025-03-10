@@ -7,7 +7,7 @@ import BusinessSignUp from '../pages/pageTSX/BusinessSignUp';
 import DeliverySignUp from '../pages/pageTSX/DeliverySignUp';
 // import AllORDERS from '../pages/pageTSX/AllOrders';
 import DeliverMyOrders from '../pages/pageTSX/DeliverMyOrders';
-// import RestaurantDishes from '../pages/pageTSX/RestaurantDishes';
+import RestaurantDishes from '../pages/pageTSX/RestaurantDishes';
 
 
 const AppRouter = () => {
@@ -20,6 +20,7 @@ const AppRouter = () => {
          <Route path="/" element={<HomePage />} /> 
         {/* <Route path="/" element={<RestaurantDishes />} /> */} */
         {/* {<Route path="/" element={<DeliverMyOrders />} /> } */}
+        <Route path="/RestaurantDishes" element={<RestaurantDishes />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup/customer" element={<CustomerSignUp />} />
         <Route path="/signup/business" element={<BusinessSignUp />} />
