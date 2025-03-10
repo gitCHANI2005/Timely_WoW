@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Timely\\Timely.csproj": {}
+    "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Timely\\Timely.csproj": {}
   },
   "projects": {
-    "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Mock\\Mock.csproj": {
+    "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Mock\\Mock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Mock\\Mock.csproj",
+        "projectUniqueName": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Mock\\Mock.csproj",
         "projectName": "Mock",
-        "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Mock\\Mock.csproj",
-        "packagesPath": "C:\\Users\\תמר\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Mock\\obj\\",
+        "projectPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Mock\\Mock.csproj",
+        "packagesPath": "C:\\Users\\yoel\\.nuget\\packages\\",
+        "outputPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Mock\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\תמר\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj"
+              "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj"
               }
             }
           }
@@ -43,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -82,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj": {
+    "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\תמר\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\obj\\",
+        "projectPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\yoel\\.nuget\\packages\\",
+        "outputPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\תמר\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -121,6 +126,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -158,24 +168,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\Service.csproj": {
+    "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\תמר\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\obj\\",
+        "projectPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\yoel\\.nuget\\packages\\",
+        "outputPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\תמר\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -191,8 +201,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj"
+              "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj"
               }
             }
           }
@@ -201,6 +211,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -232,24 +247,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Timely\\Timely.csproj": {
+    "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Timely\\Timely.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Timely\\Timely.csproj",
+        "projectUniqueName": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Timely\\Timely.csproj",
         "projectName": "Timely",
-        "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Timely\\Timely.csproj",
-        "packagesPath": "C:\\Users\\תמר\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Timely\\obj\\",
+        "projectPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Timely\\Timely.csproj",
+        "packagesPath": "C:\\Users\\yoel\\.nuget\\packages\\",
+        "outputPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Timely\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\תמר\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -259,21 +274,20 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Mock\\Mock.csproj": {
-                "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Mock\\Mock.csproj"
+              "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Mock\\Mock.csproj": {
+                "projectPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Mock\\Mock.csproj"
               },
-              "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj"
+              "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj"
               },
-              "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\Service.csproj"
+              "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Service\\Service.csproj": {
+                "projectPath": "C:\\חני בתיה\\WOW_TIMELY\\Timely_WoW\\server\\Timely\\Service\\Service.csproj"
               }
             }
           }
@@ -282,6 +296,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -330,7 +349,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

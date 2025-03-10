@@ -380,6 +380,32 @@
     ]
   },
   {
+    "ContainingType": "Timely.Controllers.CustomerController",
+    "Method": "Register",
+    "RelativePath": "api/Customer/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "Service.Dtos.CustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Timely.Controllers.DeliverController",
     "Method": "Get",
     "RelativePath": "api/Deliver",
@@ -500,6 +526,32 @@
       {
         "Type": "System.Void",
         "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Timely.Controllers.DeliverController",
+    "Method": "Register",
+    "RelativePath": "api/Deliver/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deliver",
+        "Type": "Service.Dtos.DeliverDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -1050,6 +1102,32 @@
     ]
   },
   {
+    "ContainingType": "Timely.Controllers.OwnerController",
+    "Method": "Register",
+    "RelativePath": "api/Owner/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "owner",
+        "Type": "Service.Dtos.OwnerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Timely.Controllers.StoreController",
     "Method": "Get",
     "RelativePath": "api/Store",
@@ -1088,11 +1166,6 @@
         "IsRequired": false
       },
       {
-        "Name": "IdOwner",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
         "Name": "owner.Id",
         "Type": "System.Int32",
         "IsRequired": false
@@ -1123,13 +1196,13 @@
         "IsRequired": false
       },
       {
-        "Name": "owner.Role",
-        "Type": "Repository.Entity.Roles",
+        "Name": "owner.Password",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "IdCity",
-        "Type": "System.Int32",
+        "Name": "owner.Role",
+        "Type": "Repository.Entity.Roles",
         "IsRequired": false
       },
       {
@@ -1148,23 +1221,8 @@
         "IsRequired": false
       },
       {
-        "Name": "IsManager",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
-        "Name": "IsOwner",
-        "Type": "System.Boolean",
-        "IsRequired": false
-      },
-      {
         "Name": "Image",
         "Type": "System.Byte[]",
-        "IsRequired": false
-      },
-      {
-        "Name": "ListExtra",
-        "Type": "System.Collections.Generic.ICollection\u00601[[Repository.Entity.Extra, Repository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": false
       },
       {
@@ -1290,6 +1348,27 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Timely.Controllers.LoginController",
+    "Method": "Login",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
