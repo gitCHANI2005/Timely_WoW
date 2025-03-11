@@ -7,34 +7,60 @@ const RestaurantsPage = () => {
   const [location, setLocation] = useState('');
   const [restaurants, setRestaurants] = useState([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
+  const [topDishes, setTopDishes] = useState([]);
+  const [stores, setStores] = useState([]);
+  const [selectedRestaurant, setSelectedRestaurant] = useState(null);
+  const [restaurantDishes, setRestaurantDishes] = useState([]);
 
   useEffect(() => {
-    // שליפת המיקום מ-localStorage
     const storedLocation = JSON.parse(localStorage.getItem('userLocation'));
     if (storedLocation) {
       setLocation(storedLocation.address);
     }
 
-    // קריאה ל-API לשליפת מנות מהתפריט
     fetch('https://localhost:7013/api/MenuDose')
       .then(response => response.json())
       .then(data => {
-        console.log("נתונים שהתקבלו מהשרת:", data);
-        setRestaurants(data);
-        setFilteredRestaurants(data);
+        console.log("מנות שהתקבלו מהשרת:", data);
+        if (Array.isArray(data)) {
+          setTopDishes(data.sort((a, b) => b.avgLikes - a.avgLikes).slice(0, 10));
+        } else {
+          console.error("מבנה הנתונים אינו כצפוי:", data);
+        }
       })
       .catch(error => console.error('שגיאה בשליפת הנתונים:', error));
+
+    fetch('https://localhost:7013/api/Store')
+      .then(response => response.json())
+      .then(data => {
+        console.log("חנויות שהתקבלו מהשרת:", data);
+        if (Array.isArray(data)) {
+          setStores(data);
+          setFilteredRestaurants(data);
+        } else {
+          console.error("מבנה הנתונים אינו כצפוי:", data);
+        }
+      })
+      .catch(error => console.error('שגיאה בשליפת החנויות:', error));
   }, []);
 
   useEffect(() => {
-    // סינון מסעדות על פי שם, קטגוריה ומיקום
-    const filtered = restaurants.filter(restaurant =>
-      (searchTerm ? restaurant.name.toLowerCase().includes(searchTerm.toLowerCase()) : true) &&
-      (category ? restaurant.category.toLowerCase().includes(category.toLowerCase()) : true)
+    const filtered = stores.filter(store =>
+      (searchTerm ? store.name.toLowerCase().includes(searchTerm.toLowerCase()) : true) &&
+      (category ? store.category.toLowerCase().includes(category.toLowerCase()) : true)
     );
-
     setFilteredRestaurants(filtered);
-  }, [searchTerm, category, restaurants]);
+  }, [searchTerm, category, stores]);
+
+  const handleRestaurantClick = (restaurantId) => {
+    fetch(`https://localhost:7013/api/MenuDose/getByIdRestaurant/${restaurantId}`)
+      .then(response => response.json())
+      .then(data => {
+        setSelectedRestaurant(restaurantId);
+        setRestaurantDishes(data);
+      })
+      .catch(error => console.error('שגיאה בשליפת המנות:', error));
+  };
 
   return (
     <div className="restaurants-page">
@@ -56,19 +82,46 @@ const RestaurantsPage = () => {
         />
       </header>
       
+      <section className="top-dishes">
+        <h3>המנות הפופולריות ביותר</h3>
+        <div className="dishes-list">
+          {topDishes.map((dish, index) => (
+            <div key={index} className="dish-card">
+              <img src={dish.Image} alt={dish.name} className="dish-image" />
+              <h4>{dish.name}</h4>
+              <p>לייקים: {dish.avgLikes}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="restaurants-list">
-        {filteredRestaurants.length > 0 ? (
-          filteredRestaurants.map((restaurant, index) => (
-            <div key={index} className="restaurant-card">
-              {restaurant.image && <img src={restaurant.image} alt={restaurant.name} className="restaurant-image" />}
+        <h3>כל המסעדות</h3>
+        <div className="restaurant-gallery">
+          {filteredRestaurants.map((restaurant, index) => (
+            <div key={index} className="restaurant-card" onClick={() => handleRestaurantClick(9)}>
+              <img src={restaurant.Image} alt={restaurant.name} className="restaurant-image" />
               <h3>{restaurant.name}</h3>
               <p>{restaurant.category}</p>
             </div>
-          ))
-        ) : (
-          <p className="no-results">לא נמצאו תוצאות</p>
-        )}
+          ))}
+        </div>
       </section>
+
+      {selectedRestaurant && (
+        <section className="restaurant-dishes">
+          <h3>מנות של {filteredRestaurants.find(r => r.id === selectedRestaurant)?.name}</h3>
+          <div className="dishes-list">
+            {restaurantDishes.map((dish, index) => (
+              <div key={index} className="dish-card">
+                <img src={dish.image} alt={dish.name} className="dish-image" />
+                <h4>{dish.name}</h4>
+                <p>מחיר: {dish.price} ₪</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 };
