@@ -24,6 +24,11 @@ namespace Timely.Controllers
         {
             return _menuDoseService.getAll();
         }
+        [HttpGet("getByIdRestaurant/{id}")]
+        public List<MenuDoseDto> GetByRestaurant(int id)
+        {
+            return _menuDoseService.getAll().Where(predicate => predicate.StoreId == id).ToList();
+        }
 
         // GET api/<MenuDoseController>/5
         [HttpGet("{id}")]

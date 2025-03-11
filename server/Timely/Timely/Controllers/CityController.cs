@@ -14,7 +14,7 @@ namespace Timely.Controllers
     public class CityController : ControllerBase
     {
         private readonly IRepository<City> _cityrepository;
-
+        
         public CityController(IRepository<City> cityrepository)
         {
             _cityrepository = cityrepository;
@@ -26,14 +26,14 @@ namespace Timely.Controllers
             return _cityrepository.GetAll();
         }
         [HttpGet("{id}")]
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         public City Get(int id)
         {
             return _cityrepository.Get(id);
         }
         // POST api/city
         [HttpPost]
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         public IActionResult Post([FromBody] City newCity)
         {
             try
@@ -53,7 +53,7 @@ namespace Timely.Controllers
         }
         // PUT api/city/5
         [HttpPut("{id}")]
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         public City Put(int id, [FromBody] City updatedCity)
         {
             //if (updatedCity == null)
@@ -75,7 +75,7 @@ namespace Timely.Controllers
         }
         // DELETE api/city/5
         [HttpDelete("{id}")]
-        [Authorize(Policy = "AdminOnly")]
+        //[Authorize(Policy = "AdminOnly")]
         public void Delete(int id)
         {
             var existingCity = _cityrepository.Get(id);
