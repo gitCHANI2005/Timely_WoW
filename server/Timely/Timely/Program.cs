@@ -11,8 +11,6 @@ using Service.Interfaces;
 using Service.Services;
 using System.Security.Claims;
 using System.Text;
-using Microsoft.EntityFrameworkCore;
-using Timely;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,11 +24,9 @@ builder.Services.AddSwaggerGen();
 
 //di -database
 builder.Services.AddDbContext<IContext, DataBase>();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<IService<CityDto>,CityService>();
+builder.Services.AddScoped<IService<CityDto>, CityService>();
 builder.Services.AddScoped<IService<CategoryDto>, CategoryService>();
-builder.Services.AddScoped<IService<MenuDoseDto>, MenuDoseService>();   
+builder.Services.AddScoped<IService<MenuDoseDto>, MenuDoseService>();
 builder.Services.AddScoped<IService<CustomerDto>, CustomerService>();
 builder.Services.AddScoped<IService<DeliverDto>, DeliverService>();
 builder.Services.AddScoped<IService<ExtraDto>, ExtraService>();
