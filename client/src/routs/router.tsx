@@ -8,7 +8,7 @@ import DeliverySignUp from '../pages/pageTSX/DeliverySignUp';
 // import AllORDERS from '../pages/pageTSX/AllOrders';
 import DeliverMyOrders from '../pages/pageTSX/DeliverMyOrders';
 import RestaurantDishes from '../pages/pageTSX/RestaurantDishes';
-
+import RestaurantPage from '../pages/pageTSX/RestaurantPage'
 
 const AppRouter = () => {
   const city = "תל אביב"; // לדוגמה, ניתן לקבל זאת מ-Context או API
@@ -25,6 +25,7 @@ const AppRouter = () => {
         <Route path="/signup/customer" element={<CustomerSignUp />} />
         <Route path="/signup/business" element={<BusinessSignUp />} />
         <Route path="/signup/delivery" element={<DeliverySignUp />} />
+        <Route path="/RestaurantPage/:RestaurantId" element={<RestaurantPage/>} />
       </Routes>
     </Router>
   );

@@ -14,14 +14,32 @@
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
+.no-dishes-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 20px;
+}
 
-/* תמונת המסעדה */
+
+/* תמונת המסעדה - צמודה ללמעלה */
 .restaurant-image {
   width: 100%;
-  max-height: 400px;
+  max-height: 300px; /* גובה יותר קטן */
   object-fit: cover;
   border-radius: 10px;
+  margin: 0; /* ביטול כל רווחים */
+  display: block;
+}
+
+/* תמונת המנה בחלון המודל */
+.modal-image {
+  width: 100%;
+  max-height: 200px; /* הקטנת התמונה */
+  object-fit: contain; /* שמירה על פרופורציות בלי חיתוך */
   margin-bottom: 10px;
+  border-radius: 5px;
+  display: block;
 }
 
 /* סטטוס פתיחה */
