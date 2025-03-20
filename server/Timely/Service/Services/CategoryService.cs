@@ -44,12 +44,36 @@ namespace Service.Services
 
         }
 
+        public Customer RegisterCustomer(CustomerDto customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public CategoryDto RegisterDeliver(DeliverDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Deliver RegisterDeliver(CategoryDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Owner RegisterOwner(OwnerDto owner)
+        {
+            throw new NotImplementedException();
+        }
+
         public CategoryDto Update(int id, CategoryDto item)
         {
             return _mapper.Map<CategoryDto>(_repository.UpdateItem(id, _mapper.Map<Category>(item)));
 
         }
 
+        Deliver IService<CategoryDto>.RegisterDeliver(DeliverDto item)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

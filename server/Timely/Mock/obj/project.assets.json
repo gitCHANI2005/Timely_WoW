@@ -2504,11 +2504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Mock\\Mock.csproj",
+      "projectUniqueName": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Mock\\Mock.csproj",
       "projectName": "Mock",
-      "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Mock\\Mock.csproj",
+      "projectPath": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Mock\\Mock.csproj",
       "packagesPath": "C:\\Users\\תמר\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Mock\\obj\\",
+      "outputPath": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Mock\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2530,8 +2530,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj"
+            "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj"
             }
           }
         }

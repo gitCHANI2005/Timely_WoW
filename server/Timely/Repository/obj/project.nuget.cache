@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3fJ8tYCJhsuU/gYq4UAIlW7Ue3qRhmjJf+yhP2dinqmUuU3bcsoHAGLxDBanCCtj5zO8xWQe0cMVin7l+SHiiw==",
+  "dgSpecHash": "PxDea2LcJDQPmqs9+DrpCZ3xzJxkcHL8vUzCZ+4wnXgCAyn0DVsnbj7Kv7TlQYupajDj3qCw2xyGo8rdPKx7xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\תמר\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\תמר\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

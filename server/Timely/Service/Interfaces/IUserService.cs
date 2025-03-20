@@ -11,9 +11,6 @@ namespace Service.Interfaces
     {
         UserDto ValidateUser(string name, string password);
         bool IsEmailTaken(string email);
-        string RegisterDeliver( DeliverDto deliver);
-        string RegisterCustomer(CustomerDto customer);
-        string RegisterOwner(OwnerDto owner);
 
     }
 }

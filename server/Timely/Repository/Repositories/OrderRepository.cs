@@ -10,29 +10,39 @@ namespace Repository.Repositories
 {
     internal class OrderRepository : IRepository<Order>
     {
-        private readonly IContext context;
+        private readonly IContext _context;
+        public OrderRepository(IContext context)
+        {
+            _context = context;
+        }
 
         public Order AddItem(Order item)
         {
-            context.Orders.Add(item);
-            context.save();
+
+            _context.Orders.Add(item);
+            _context.save();
             return item;
         }
 
         public void DeleteItem(int id)
         {
-            context.Orders.Remove(Get(id));
-            context.save();
+            _context.Orders.Remove(Get(id));
+            _context.save();
         }
 
         public Order Get(int id)
         {
-            return context.Orders.FirstOrDefault(x => x.Id == id);
+            return _context.Orders.FirstOrDefault(x => x.Id == id);
         }
 
         public List<Order> GetAll()
         {
-            return context.Orders.ToList();
+            return _context.Orders.ToList();
+        }
+
+        public int GetIdByName(string name)
+        {
+            throw new NotImplementedException();
         }
 
         public Order UpdateItem(int id, Order item)
@@ -47,7 +57,7 @@ namespace Repository.Repositories
             order.OrderDate= item.OrderDate;
             order.FinalPrice= item.FinalPrice;
             order.status=item.status;
-            context.save();
+            _context.save();
             return order;
         }
     }

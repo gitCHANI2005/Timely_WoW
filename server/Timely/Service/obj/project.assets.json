@@ -2626,11 +2626,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\תמר\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\obj\\",
+      "outputPath": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2652,8 +2652,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Repository\\Repository.csproj"
+            "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Repository\\Repository.csproj"
             }
           }
         }

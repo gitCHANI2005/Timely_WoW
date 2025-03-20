@@ -38,6 +38,11 @@ namespace Repository.Repositories
             return context.Extras.ToList();
         }
 
+        public int GetIdByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public Extra UpdateItem(int id, Extra item)
         {
             Extra extra = Get(id);

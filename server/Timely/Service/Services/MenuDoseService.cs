@@ -44,10 +44,35 @@ namespace Service.Services
             return _mapper.Map<MenuDoseDto>(_repository.Get(id));
         }
 
+        public Customer RegisterCustomer(CustomerDto customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public MenuDoseDto RegisterDeliver(DeliverDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Deliver RegisterDeliver(MenuDoseDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Owner RegisterOwner(OwnerDto owner)
+        {
+            throw new NotImplementedException();
+        }
+
         public MenuDoseDto Update(int id, MenuDoseDto item)
         {
             return _mapper.Map<MenuDoseDto>(_repository.UpdateItem(id, _mapper.Map<MenuDose>(item)));
 
+        }
+
+        Deliver IService<MenuDoseDto>.RegisterDeliver(DeliverDto item)
+        {
+            throw new NotImplementedException();
         }
     }
 }

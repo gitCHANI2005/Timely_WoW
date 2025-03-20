@@ -100,3 +100,20 @@ C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\ob
 C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.pdb
 C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
 C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\תמר\Timely_WoW\server\Timely\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+C:\Users\תמר\Timely_WoW\server\Timely\Service\bin\Debug\net6.0\Service.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\תמר\Timely_WoW\server\Timely\Service\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Service\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\Service.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\תמר\Timely_WoW\server\Timely\Service\obj\Debug\net6.0\ref\Service.dll

@@ -18,30 +18,27 @@ namespace Timely.Controllers
     {
         private readonly IRepository<Customer> _customerrepository;
         private readonly JwtService _jwtService;
-        private readonly IUserService _userService;
+        private readonly IService<Customer> _customerService;
 
-        public CustomerController(IRepository<Customer> customerrepository, JwtService jwtService, IUserService userService)
+        public CustomerController(IRepository<Customer> customerrepository, JwtService jwtService, IService<Customer> customerService)
         {
             _customerrepository = customerrepository;
             _jwtService = jwtService;
-            _userService = userService;
+            _customerService= customerService;
         }
 
-        [HttpPost("Register")]
-        public string Register([FromBody] CustomerDto customer)
+        [HttpPost]
+        public Customer Register([FromBody] CustomerDto customer)
         {
-            string role = customer.Role + "";
-
-            if (string.IsNullOrEmpty(customer.Email) || string.IsNullOrEmpty(customer.Password) || string.IsNullOrEmpty(role))
+            if (string.IsNullOrEmpty(customer.Email) || string.IsNullOrEmpty(customer.Password))
             {
-                return ("Email, password, and role are required.");
+                Console.WriteLine("Email, password, and role are required.");
             }
 
-            string token = _userService.RegisterCustomer(customer);
-            return token;
+            Customer c = _customerService.RegisterCustomer(customer);
+            return c;
         }
 
-        //[Authorize(Policy = "AdminOnly")]
         [HttpGet]
         public List<Customer> Get()
         {
@@ -54,28 +51,6 @@ namespace Timely.Controllers
         {
             return _customerrepository.Get(id);
         }
-
-        // POST api/<CustomerController>
-        [HttpPost]
-        [Authorize]
-        public ActionResult<Customer> Post([FromBody] Customer newCustomer)
-        {
-            if (newCustomer == null)
-            {
-                return BadRequest("Customer cannot be null");
-            }
-            try
-            {
-                var createdCustomer = _customerrepository.AddItem(newCustomer);
-                return CreatedAtAction(nameof(Get), new { id = createdCustomer.Id }, createdCustomer);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
-        }
-
-        // PUT api/<CustomerController>/5
         [HttpPut("{id}")]
         [Authorize]
         public Customer Put(int id, [FromBody] Customer updateCustomer)
@@ -86,7 +61,7 @@ namespace Timely.Controllers
             return existingCustomer;
         }
 
-        // DELETE api/<CustomerController>/5
+
         [HttpDelete("{id}") ]
         [Authorize(Policy = "AdminOnly")]
         public void Delete(int id)

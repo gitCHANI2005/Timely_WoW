@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../pageCSS/RestaurantDishes.css';
-import { Link, Navigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
+import Header from './Header.tsx';
 
 const RestaurantsPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -72,10 +72,10 @@ const RestaurantsPage = () => {
       .catch(error => console.error('שגיאה בשליפת המנות:', error));
   };
 
-
-
   return (
     <div className="restaurants-page">
+      <Header /> {/* הוספנו את ההדר פה */}
+      
       <header className="search-header">
         <h2>מסעדות באזור {location}</h2>
         <input
@@ -110,10 +110,9 @@ const RestaurantsPage = () => {
               <p>לייקים: {dish.avgLikes}</p>
             </div>
             </Link>
-          )))
-        :(
+          ))):(
           <p>לא נמצאו תוצאות 😡😡</p>
-        )}
+          )}
         </div>
       </section>
 
@@ -129,10 +128,7 @@ const RestaurantsPage = () => {
               <h3>{restaurant.name}</h3>
               <p>{restaurant.category}</p>
             </div>
-          ))
-        ):(
-            <p>טוען מסעדות...</p>
-          )}
+          ))):( <p>טוען מסעדות...</p>)}
         </div>
       </section>
 

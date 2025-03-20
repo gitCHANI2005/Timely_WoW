@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Autofac.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Repository.Entity;
 using Repository.Interfaces;
@@ -16,31 +17,28 @@ namespace Timely.Controllers
     public class OwnerController : ControllerBase
     {
         private readonly IRepository<Owner> _ownerRepository;
-        private readonly IUserService _userService;
+        private readonly IService<Owner> _ownerService;
         private readonly JwtService _jwtService;
 
-        public OwnerController(IRepository<Owner> ownerRepository, JwtService jwtService, IUserService userService)
+        public OwnerController(IRepository<Owner> ownerRepository, JwtService jwtService, IService<Owner> ownerService)
         {
             _ownerRepository = ownerRepository;
             _jwtService = jwtService;
-            _userService = userService;
+            _ownerService = ownerService;
         }
 
-        [HttpPost("Register")]
-        public string Register([FromBody] OwnerDto owner)
+        [HttpPost]
+        public Owner Register([FromBody] OwnerDto owner)
         {
             string role = owner.Role + "";
-
             if (string.IsNullOrEmpty(owner.Email) || string.IsNullOrEmpty(owner.Password) || string.IsNullOrEmpty(role))
             {
-                return ("Email, password, and role are required.");
+                Console.WriteLine("Email, password, and role are required.");
             }
-
-            string token = _userService.RegisterOwner(owner);
-            return token;
+            Owner o = _ownerService.RegisterOwner(owner);
+            return o;
         }
 
-        // GET: api/<OwnerController>
         [HttpGet]
         [Authorize]
         public List<Owner> Get()
@@ -48,7 +46,6 @@ namespace Timely.Controllers
             return _ownerRepository.GetAll();
         }
 
-        // GET api/<OwnerController>/5
         [HttpGet("{id}")]
         [Authorize]
         public Owner Get(int id)
@@ -56,27 +53,6 @@ namespace Timely.Controllers
             return _ownerRepository.Get(id);
         }
 
-        // POST api/<OwnerController>
-        [HttpPost]
-        //[Authorize]
-        public ActionResult<Owner> Post([FromBody] Owner newOwner)
-        {
-            if (newOwner == null)
-            {
-                return BadRequest("Customer cannot be null");
-            }
-            try
-            {
-                var createdOwner = _ownerRepository.AddItem(newOwner);
-                return CreatedAtAction(nameof(Get), new { id = createdOwner.Id }, createdOwner);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
-        }
-
-        // PUT api/<OwnerController>/5
         [HttpPut("{id}")]
         [Authorize]
         public Owner Put(int id, [FromBody] Owner updateOwner)
@@ -86,7 +62,7 @@ namespace Timely.Controllers
             return existingOwner;
         }
 
-        // DELETE api/<OwnerController>/5
+
         [HttpDelete("{id}")]
         [Authorize]
         public void Delete(int id)

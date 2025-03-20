@@ -14,7 +14,7 @@ namespace Service.Services
         public MyMapper()
         {
 
-            CreateMap<MenuDose, MenuDoseDto>().ForMember(dest => dest.Image, src => src.MapFrom(s => s.ImageUrl != null ? System.IO.File.ReadAllBytes(Path.Combine(Directory.GetCurrentDirectory(), "Images", s.ImageUrl)) : null));
+            https://localhost:7013/api/OrderCreateMap<MenuDose, MenuDoseDto>().ForMember(dest => dest.Image, src => src.MapFrom(s => s.ImageUrl != null ? System.IO.File.ReadAllBytes(Path.Combine(Directory.GetCurrentDirectory(), "Images", s.ImageUrl)) : null));
             //מהתצוגה לשרת
             CreateMap<MenuDoseDto, MenuDose>().ForMember(dest => dest.ImageUrl, src => src.MapFrom(s => s.File.FileName));
 
@@ -27,6 +27,10 @@ namespace Service.Services
             CreateMap<Category, CategoryDto>().ForMember(dest => dest.Image, src => src.MapFrom(s => s.ImageUrl != null ? System.IO.File.ReadAllBytes(Path.Combine(Directory.GetCurrentDirectory(), "Images", s.ImageUrl)) : null));
             //מהתצוגה לשרת
             CreateMap<CategoryDto, Category>().ForMember(dest => dest.ImageUrl, src => src.MapFrom(s => s.File.FileName));
+            CreateMap<Deliver, DeliverDto>().ReverseMap();
+            CreateMap<Owner, OwnerDto>().ReverseMap();
+            CreateMap<Customer, CustomerDto>().ReverseMap();
+
         }
         public byte[] convertToByte(string image)
         {

@@ -1,4 +1,5 @@
-﻿using Service.Dtos;
+﻿using Repository.Entity;
+using Service.Dtos;
 using Service.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -30,7 +31,32 @@ namespace Service.Services
             throw new NotImplementedException();
         }
 
+        public Customer RegisterCustomer(CustomerDto customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public OrderDto RegisterDeliver(DeliverDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Deliver RegisterDeliver(OrderDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Owner RegisterOwner(OwnerDto owner)
+        {
+            throw new NotImplementedException();
+        }
+
         public OrderDto Update(int id, OrderDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        Deliver IService<OrderDto>.RegisterDeliver(DeliverDto item)
         {
             throw new NotImplementedException();
         }

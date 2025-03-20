@@ -14,5 +14,6 @@ namespace Repository.Interfaces
         T AddItem(T item);
         T UpdateItem(int id, T item);
         void DeleteItem(int id);
+        int GetIdByName(string name);
     }
 }

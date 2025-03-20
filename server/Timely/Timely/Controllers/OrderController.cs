@@ -17,7 +17,6 @@ namespace Timely.Controllers
         {
             _orderRepository=orderRepository;
         }
-        // GET: api/<OrderController>
         [HttpGet]
         public List<Order> Get()
         {
@@ -31,10 +30,8 @@ namespace Timely.Controllers
             return _orderRepository.Get(id);
         }
 
-        // POST api/<OrderController>
         [HttpPost]
-        [Authorize(Policy = "CustomerOnly")]
-
+        //[Authorize(Policy = "CustomerOnly")]
         public ActionResult<Order> Post([FromBody] Order newOrder)
         {
             if (newOrder == null)

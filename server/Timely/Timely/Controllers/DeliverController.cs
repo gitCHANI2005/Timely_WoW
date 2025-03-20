@@ -16,27 +16,28 @@ namespace Timely.Controllers
     {
         private readonly IRepository<Deliver> _deliverrepository;
         private readonly IUserService _userService;
+        private readonly IService<DeliverDto> _deliverService;
 
-        public DeliverController(IRepository<Deliver> deliverrepository, IUserService userService)
+
+        public DeliverController(IRepository<Deliver> deliverrepository, IUserService userService, IService<DeliverDto> deliverService)
         {
             _deliverrepository = deliverrepository;
             _userService = userService;
+            _deliverService = deliverService;   
         }
 
-        [HttpPost("Register")]
-        public string Register([FromBody] DeliverDto deliver)
+        [HttpPost]
+        public Deliver Register([FromBody] DeliverDto deliver)
         {
-            string role = deliver.Role + "";
-
-            if (string.IsNullOrEmpty(deliver.Email) || string.IsNullOrEmpty(deliver.Password) || string.IsNullOrEmpty(role))
+            if (string.IsNullOrEmpty(deliver.Email) || string.IsNullOrEmpty(deliver.Password))
             {
-                return ("Email, password, and role are required.");
+                Console.WriteLine("gby"); ;
             }
 
-            string token = _userService.RegisterDeliver(deliver);
-            return token;
+            Deliver d = _deliverService.RegisterDeliver(deliver);
+            return d;
         }
-        // GET: api/<DeliverController>
+
         [HttpGet]
         [Authorize(Policy = "AdminOnly")]
         public List<Deliver> Get()
@@ -44,7 +45,6 @@ namespace Timely.Controllers
             return _deliverrepository.GetAll();
         }
 
-        // GET api/<DeliverController>/5
         [HttpGet("{id}")]
         [Authorize(Policy = "AdminOnly")]
         public Deliver Get(int id)
@@ -52,26 +52,6 @@ namespace Timely.Controllers
             return _deliverrepository.Get(id);
         }
 
-        // POST api/<DeliverController>
-        [HttpPost]
-        public ActionResult<Deliver> Post([FromBody] Deliver newDeliver)
-        {
-            if (newDeliver == null)
-            {
-                return BadRequest("Customer cannot be null");
-            }
-            try
-            {
-                var createdDeliver = _deliverrepository.AddItem(newDeliver);
-                return CreatedAtAction(nameof(Get), new { id = createdDeliver.Id }, createdDeliver);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
-        }
-
-        // PUT api/<DeliverController>/5
         [HttpPut("{id}")]
         [Authorize(Policy = "DeliverOnly")]
         public Deliver Put(int id, [FromBody] Deliver updateDeliver)
@@ -82,7 +62,6 @@ namespace Timely.Controllers
             return existingDeliver;
         }
 
-        // DELETE api/<DeliverController>/5
         [HttpDelete("{id}")]
         [Authorize(Policy = "DeliverOnly")]
         public void Delete(int id)

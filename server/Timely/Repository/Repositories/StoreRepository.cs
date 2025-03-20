@@ -39,6 +39,11 @@ namespace Repository.Repositories
             
         }
 
+        public int GetIdByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public Store UpdateItem(int id, Store item)
         {
             Store store = Get(id);

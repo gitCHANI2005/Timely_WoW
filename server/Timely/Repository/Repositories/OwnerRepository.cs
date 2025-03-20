@@ -39,6 +39,11 @@ namespace Repository.Repositories
             return context.Owners.ToList();
         }
 
+        public int GetIdByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public Owner UpdateItem(int id, Owner item)
         {
             Owner owner = Get(id);

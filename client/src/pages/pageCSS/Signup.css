@@ -1,6 +1,6 @@
-/* Container for login form */
-.login-container {
-    max-width: 400px;
+/* Container for signup form */
+.signup-form {
+    max-width: 600px;
     margin: auto;
     padding: 40px;
     text-align: center;
@@ -8,25 +8,30 @@
     background-color: #fff;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.login-container:hover {
+/* Add hover effect */
+.signup-form:hover {
     transform: translateY(-10px);
     box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 /* Input fields */
-input {
-    width: 90%;
-    padding: 12px;
-    margin: 12px 0;
+input, select {
+    width: 95%; /* שיניתי את הרוחב ל-80% */
+    padding: 15px; /* הקטנתי את הריווח הפנימי */
+    margin: 10px 0; /* הוספתי ריווח בין השדות */
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 16px;
     transition: border-color 0.3s ease-in-out;
+    direction: rtl; /* הגדרתי את כיוון הטקסט מימין לשמאל */
 }
 
-input:focus {
+input:focus, select:focus {
     border-color: #4FB3C2; /* תכלת */
     outline: none;
 }
@@ -49,55 +54,63 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Login message */
-.login-message {
+/* Message styles */
+.signup-form p {
     margin-top: 15px;
     font-weight: bold;
     color: #4FB3C2; /* תכלת */
     font-size: 16px;
 }
 
-/* Add small spacing around the login form */
-.login-container form {
+/* Flexbox style for the form layout */
+.signup-form form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Add a stylish divider line between the form sections */
-.login-container .divider {
+/* Add spacing and divider between sections */
+.signup-form .divider {
     margin: 20px 0;
     border-top: 1px solid #ccc;
     width: 100%;
 }
 
-/* Add styles for the text links (forgot password, etc.) */
-.login-container .text-link {
-    color: #4FB3C2; /* תכלת */
-    text-decoration: none;
-    font-size: 14px;
-    margin-top: 10px;
-    transition: color 0.3s ease;
-}
-
-.login-container .text-link:hover {
-    color: #3A8C93; /* תכלת כהה */
-}
-/* עיצוב שדה הסיסמא */
-input[type="password"] {
-    width: 100%;
-    padding: 12px;
+/* Add styles for the select (cities) */
+select {
+    width: 80%; /* שיניתי את הרוחב ל-80% */
+    padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 16px;
-    background-color: #fff;
-    color: #333;
-    transition: all 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    direction: rtl; /* הגדרתי את כיוון הטקסט מימין לשמאל */
 }
 
-input[type="password"]:focus {
-    border-color: #007bff; /* כחול */
-    background-color: #e7f3ff;
-    outline: none;
+/* Centering the text inside the form */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
+
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .message.success {
+    color: green;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .message.error {
+    color: red;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+  }

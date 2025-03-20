@@ -46,5 +46,13 @@ namespace Repository.Repositories
             return city;
         }
 
+        public int GetIdByName(string name)
+        {
+            return context.Cities
+            .Where(x => x.Name == name)
+            .Select(x => x.Id)
+            .FirstOrDefault();
+        }
+
     }
 }

@@ -39,6 +39,11 @@ namespace Repository.Repositories
             return context.Delivers.ToList();
         }
 
+        public int GetIdByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public Deliver UpdateItem(int id, Deliver item)
         {
             Deliver deliver = Get(id);

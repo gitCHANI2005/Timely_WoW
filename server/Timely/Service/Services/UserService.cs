@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using AutoMapper;
+using Microsoft.Extensions.Configuration;
 using Repository.Entity;
 using Repository.Interfaces;
 using Repository.Repositories;
@@ -8,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Data;
+using System.Data.Entity;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -24,10 +26,12 @@ namespace Service.Services
         private readonly IRepository<Customer> _customerRepository;
         private readonly IRepository<Deliver> _deliverRepository;
         private readonly IRepository<Owner> _ownerRepository;
+        private readonly IRepository<City> _cityRepository;
+        private readonly IMapper mapper;
 
 
 
-        public UserService(IContext context, JwtService jwtService, IConfiguration configuration, IRepository<Customer> customerRepository, IRepository<Deliver> deliverRepository, IRepository<Owner> ownerRepository)
+        public UserService(IContext context, JwtService jwtService, IConfiguration configuration, IRepository<Customer> customerRepository, IRepository<Deliver> deliverRepository, IRepository<Owner> ownerRepository, IRepository<City> cityRepository,IMapper map)
         {
             _context = context;
             _jwtService = jwtService;
@@ -35,31 +39,29 @@ namespace Service.Services
             _customerRepository = customerRepository;
             _deliverRepository = deliverRepository;
             _ownerRepository = ownerRepository;
+            _cityRepository = cityRepository;
+            mapper = map;
         }
 
         public UserDto ValidateUser(string email, string password)
         {
-            // בדיקת כל סוגי המשתמשים
             var user = FindCustomer(email, password) ??
                        FindDeliverer(email, password) ??
                        FindOwner(email, password) ??
                        FindAdmin(email, password);
-
             return user;
         }
 
-        private UserDto FindCustomer(string email, string password)
-        
+        private UserDto FindCustomer(string email, string password)      
         {
-            var customer = _context.Customers.FirstOrDefault(x => x.Email == email && x.Password == password);
+            var customer = _context.Customers.SingleOrDefault(x => x.Email == email && x.Password == password);
             if (customer != null)
             {
                 return new UserDto
                 {
                     Email = customer.Email,
                     Role = Roles.customer,
-                    Name = customer.Name,
-
+                    Name = customer.Name,              
                 };
             }
             return null;
@@ -123,73 +125,6 @@ namespace Service.Services
                    _ownerRepository.GetAll().Any(o => o.Email == email);
         }
 
-        public string RegisterDeliver(DeliverDto deliver)
-        {
-            string role = deliver.Role + "";
-            string token;
-            var d = new Deliver {
-                Name = deliver.Name,
-                Email = deliver.Email,
-                Password = deliver.Password,
-                Phone = deliver.Phone,
-                Identity = deliver.Identity,
-                Role = deliver.Role,
-                DateOfBirth = deliver.DateOfBirth,
-                IsActive = deliver.IsActive,
-                CityId = deliver.CityId,
-                NumOfCar = deliver.NumOfCar,
-                BankNumber = deliver.BankNumber,
-                BankAccount = deliver.BankAccount,
-                BankBranch = deliver.BankBranch
-            };
-                    _deliverRepository.AddItem(d);
-                    token = _jwtService.GenerateToken(deliver.Name, role, deliver.Email);
-            return token;
-        }
-
-        public string RegisterCustomer(CustomerDto customer)
-        {
-            string role = customer.Role + "";
-            string token;
-            var c = new Customer
-            {
-                Name = customer.Name,
-                Email = customer.Email,
-                Role = customer.Role,
-                Password = customer.Password,
-                Phone = customer.Phone,
-                Identity = customer.Identity,
-                //CityIdHome = null,
-                //CityIdWork = null,
-                AdressHome = customer.AdressHome,
-                AdressWork = customer.AdressWork,
-                CardNumber = customer.CardNumber,
-                CardValidity = customer.CardValidity,
-                CardCvv = customer.CardCvv
-            };
-            _customerRepository.AddItem(c);
-            token = _jwtService.GenerateToken(customer.Name, role, customer.Email);
-            return token;
-        }
-
-        public string RegisterOwner(OwnerDto owner)
-        {
-            string role = owner.Role + "";
-            string token;
-            var o = new Owner
-            {
-                Name = owner.Name,
-                Email = owner.Email,
-                Role = owner.Role,
-                Password = owner.Password,
-                Phone = owner.Phone,
-                Identity = owner.Identity,
-
-            };
-            _ownerRepository.AddItem(o);
-            token = _jwtService.GenerateToken(owner.Name, role, owner.Email);
-            return token;
-        }
     }
 
 }

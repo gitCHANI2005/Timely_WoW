@@ -10,9 +10,11 @@ namespace Service.Dtos
     public class CustomerDto:UserDto
     {
         public int Id { get; set; }
-        //public int CityIdHome { get; set; }
+        public string CityHome { get; set; }
+        public int CityIdHome { get; set; }
         public string AdressHome { get; set; }
-        //public int CityIdWork { get; set; }
+        public string CityWork { get; set; }
+        public int CityIdWork { get; set; }
         public string AdressWork { get; set; }
         public string CardNumber { get; set; }
         public DateTime CardValidity { get; set; }

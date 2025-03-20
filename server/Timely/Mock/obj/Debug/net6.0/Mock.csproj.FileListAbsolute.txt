@@ -100,3 +100,20 @@ C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\D
 C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.pdb
 C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
 C:\Users\תמר\OneDrive\שולחן העבודה\FinalProject\TimelyP\Mock\obj\Debug\net6.0\ref\Mock.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\bin\Debug\net6.0\Mock.deps.json
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\bin\Debug\net6.0\Mock.runtimeconfig.json
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\bin\Debug\net6.0\Mock.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\bin\Debug\net6.0\Mock.pdb
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\bin\Debug\net6.0\Repository.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\bin\Debug\net6.0\Repository.pdb
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\Mock.csproj.AssemblyReference.cache
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfoInputs.cache
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\Mock.AssemblyInfo.cs
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\Mock.csproj.CoreCompileInputs.cache
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\Mock.csproj.CopyComplete
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\Mock.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\refint\Mock.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\Mock.pdb
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\Mock.genruntimeconfig.cache
+C:\Users\תמר\Timely_WoW\server\Timely\Mock\obj\Debug\net6.0\ref\Mock.dll

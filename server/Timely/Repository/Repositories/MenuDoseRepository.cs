@@ -39,6 +39,11 @@ namespace Repository.Repositories
             return context.MenuDoses.ToList();
         }
 
+        public int GetIdByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public MenuDose UpdateItem(int id, MenuDose item)
         {
             MenuDose menuDose = Get(id);

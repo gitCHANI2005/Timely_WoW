@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iUC2IrvtVgIsRYBH+s4qtB/luQWUl4gwl0SFi8YTMcY009lxjt5+MTanW9l6YaWVsDZ50TNS1yf3AIkjBZxATg==",
+  "dgSpecHash": "20ZrZjl4ZolQlEnQjBLBp3iqOWJ4yRqwLjoa44ulyomBiMGLd07VeYdvfngeIZLET5kkZnwWSPIeSUT/wKqmJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\תמר\\OneDrive\\שולחן העבודה\\TimelyP\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\תמר\\.nuget\\packages\\autofac\\8.1.1\\autofac.8.1.1.nupkg.sha512",
     "C:\\Users\\תמר\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",

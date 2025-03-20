@@ -4,9 +4,10 @@ import { Card, CardContent, Button, Checkbox, FormControlLabel } from "@mui/mate
 import { Heart } from "lucide-react";
 import axios from "axios";
 import '../pageCSS/RestaurantPage.css'; 
+import Header from "./Header";
 
 export default function RestaurantPage() {
-  const { RestaurantId } = useParams(); // קבלת מזהה המסעדה מהנתיב
+  const { RestaurantId } = useParams(); 
   const [restaurant, setRestaurant] = useState<any>(null);
   const [dishes, setDishes] = useState<any[]>([]);
   const [liked, setLiked] = useState(false);
@@ -67,14 +68,16 @@ export default function RestaurantPage() {
   if (!restaurant) return <div>טוען נתוני מסעדה...</div>;
   if (!dishes.length) return(
     <div className="restaurant-container">
+      <Header /> 
       <h1 className="restaurant-title">{restaurant.name}</h1>
       <img src={ `data:image/png;base64,${restaurant.image}`} alt={restaurant.name} className="restaurant-image" />
       <p className="no-dishes-message">אין מנות להצגה</p>
     </div>
-  )
+  );
 
   return (
     <div className="restaurant-container">
+      <Header /> 
       <h1 className="restaurant-title">{restaurant.name}</h1>
       <img src={ `data:image/png;base64,${restaurant.image}`} alt={restaurant.name} className="restaurant-image" />
       <div className="dishes-grid">

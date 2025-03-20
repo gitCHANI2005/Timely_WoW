@@ -41,6 +41,11 @@ namespace Repository.Repositories
             return context.Categories.ToList();
         }
 
+        public int GetIdByName(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public Category UpdateItem(int id, Category item)
         {
             Category category = Get(id);

@@ -13,6 +13,7 @@ namespace Service.Dtos
         public DateTime DateOfBirth { get; set; }
         public bool IsActive { get; set; }
         public int CityId { get; set; }
+        public string cityName { get; set; }
         public string NumOfCar { get; set; }
         public string BankNumber { get; set; }
         public string BankAccount { get; set; }

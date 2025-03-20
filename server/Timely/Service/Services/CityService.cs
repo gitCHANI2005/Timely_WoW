@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Repository.Entity;
 using Service.Dtos;
 using Service.Interfaces;
 using System;
@@ -31,7 +32,32 @@ namespace Service.Services
             throw new NotImplementedException();
         }
 
+        public Customer RegisterCustomer(CustomerDto customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public CityDto RegisterDeliver(DeliverDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Deliver RegisterDeliver(CityDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Owner RegisterOwner(OwnerDto owner)
+        {
+            throw new NotImplementedException();
+        }
+
         public CityDto Update(int id, CityDto item)
+        {
+            throw new NotImplementedException();
+        }
+
+        Deliver IService<CityDto>.RegisterDeliver(DeliverDto item)
         {
             throw new NotImplementedException();
         }

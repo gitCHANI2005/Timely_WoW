@@ -20,18 +20,17 @@ namespace Timely.Controllers
             _cityrepository = cityrepository;
         }
         [HttpGet]
-        //[Authorize(Policy = "AdminOnly")]
         public List<City> Get()
         {
             return _cityrepository.GetAll();
         }
+
         [HttpGet("{id}")]
-        //[Authorize(Policy = "AdminOnly")]
         public City Get(int id)
         {
             return _cityrepository.Get(id);
         }
-        // POST api/city
+
         [HttpPost]
         //[Authorize(Policy = "AdminOnly")]
         public IActionResult Post([FromBody] City newCity)
@@ -51,44 +50,34 @@ namespace Timely.Controllers
                 return StatusCode(500, "Intlernal server error: " + ex.Message);
             }
         }
-        // PUT api/city/5
+
         [HttpPut("{id}")]
         //[Authorize(Policy = "AdminOnly")]
         public City Put(int id, [FromBody] City updatedCity)
         {
-            //if (updatedCity == null)
-            //{
-            //    return 
-            //        BadRequest("Invalid data.");
-            //}
-
             var existingCity = _cityrepository.Get(id);
-            //if (existingCity == null)
-            //{
-            //    return NotFound("City not found.");
-            //}
-
-            // עדכון העיר
             _cityrepository.UpdateItem(id, updatedCity);
 
-            return existingCity; // מחזיר תשובה ללא תוכן (העיר עודכנה)
+            return existingCity; 
         }
-        // DELETE api/city/5
+
         [HttpDelete("{id}")]
         //[Authorize(Policy = "AdminOnly")]
         public void Delete(int id)
         {
             var existingCity = _cityrepository.Get(id);
-            //if (existingCity == null)
-            //{
-            //     NotFound("City not found.");
-            //}
-
-            // מחיקת העיר
             _cityrepository.DeleteItem(id);
-
-             //NoContent(); // מחזיר תשובה ללא תוכן (העיר נמחקה)
         }
 
+        [HttpGet("GetIdByName/{name}")]
+        public ActionResult<int?> GetIdByName(string name)
+        {
+            var cityId = _cityrepository.GetIdByName(name);
+            if (cityId == null)
+            {
+                return NotFound("City not found");
+            }
+            return cityId;
+        }
     }
 }
