@@ -14,6 +14,7 @@ export default function RestaurantPage() {
   const [selectedAddOns, setSelectedAddOns] = useState<any[]>([]);
   const [quantity, setQuantity] = useState(1);
   const [totalPrice, setTotalPrice] = useState(0);
+  const [likedDishes, setLikedDishes] = useState<string[]>([]);
 
   useEffect(() => {
     const fetchRestaurantData = async () => {
@@ -38,9 +39,14 @@ export default function RestaurantPage() {
     fetchDishesData();
   }, [RestaurantId]);
 
-  const toggleLike = async () => {
-    setLiked(!liked);
-  };
+const toggleLike = (dishId: string) => {
+  setLikedDishes((prevLikedDishes) => 
+    prevLikedDishes.includes(dishId)
+      ? prevLikedDishes.filter(id => id !== dishId) // הסרת מנה מהרשימה
+      : [...prevLikedDishes, dishId] // הוספת מנה לרשימה
+  );
+};
+
 
   const handleAddOnChange = (event: React.ChangeEvent<HTMLInputElement>, addOn: any) => {
     if (event.target.checked) {
@@ -93,19 +99,29 @@ export default function RestaurantPage() {
               <h3 className="dish-title">{dish.name}</h3>
               <p className="dish-description">{dish.description}</p>
               <p className="dish-price">₪{dish.price}</p>
+               {/* כפתור אהבתי לכל מנה */}
+              <button 
+                onClick={(e) => {
+                  e.stopPropagation(); // מונע סגירה של המודאל בלחיצה
+                  toggleLike(dish.id);
+                }} 
+                className={`like-button ${likedDishes.includes(dish.id) ? "liked" : ""}`}
+              >
+                <Heart className="heart-icon" />
+                {likedDishes.includes(dish.id) ? "אהבתי" : "אהבתי?"}
+              </button>
             </CardContent>
           </Card>
         ))}
       </div>
-
-      <button onClick={toggleLike} className={`like-button ${liked ? "liked" : ""}`}>
-        <Heart className="heart-icon" />
-        {liked ? "אהבתי" : "אהבתי?"}
-      </button>
-
       {selectedDish && (
         <div className="modal-overlay">
           <div className="modal-content">
+                  {/* כפתור סגירה */}
+            <button className="close-modal" onClick={() => setSelectedDish(null)}>
+              ✖
+            </button>
+
             <img src={`data:image/png;base64,${selectedDish.image}`} alt={selectedDish.name} className="modal-image" />
             <h2 className="modal-title">{selectedDish.name}</h2>
             <p className="modal-description">{selectedDish.description}</p>

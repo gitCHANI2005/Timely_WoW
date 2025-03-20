@@ -49,18 +49,19 @@
   margin: 10px 0;
 }
 
-/* גריד המנות */
 .dishes-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr); /* תמיד 2 עמודות */
   gap: 20px;
+  justify-content: center; /* ממרכז את האלמנטים */
 }
 
-/* עיצוב כרטיס המנה */
 .dish-card {
-  cursor: pointer;
-  transition: transform 0.3s;
+  width: 100%; /* כל כרטיס יתפוס בדיוק חצי מהשורה */
+  max-width: 400px; /* מגביל את הרוחב כך שלא ימתח מדי */
+  margin: auto; /* ממקם את המנה במרכז */
 }
+
 .dish-card:hover {
   transform: scale(1.02);
 }
@@ -188,3 +189,27 @@
   padding: 5px;
   font-size: 1rem;
 }
+.close-modal {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;  /* מסיר רקע */
+  border: none;  /* מסיר מסגרת */
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: red; /* צבע X */
+  padding: 0;  /* מסיר ריפוד פנימי */
+  outline: none;  /* מסיר אפקט פוקוס */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px; /* מגדיר גודל */
+  height: 30px;
+  line-height: 1;
+}
+
+.close-modal:hover {
+  color: black;
+  background: white;
+}
+
