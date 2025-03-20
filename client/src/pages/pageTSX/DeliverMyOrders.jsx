@@ -1,67 +1,69 @@
+
 import { useEffect, useState, useRef } from "react";
 import { GoogleMap, LoadScript, DirectionsService, DirectionsRenderer } from "@react-google-maps/api";
 import Header from './Header.tsx';
 
-const libraries = ["places"];
+import React, { useState } from 'react';
+import axios from 'axios';
+const DeliverMyOrders = () => {
+  const [origin, setOrigin] = useState("ירושלים");
+  const [orders, setOrders] = useState([
+    { store: "ירושלים", customer: "חיפה" },
+    { store: "תל אביב", customer: "ראשון לציון" },
+  ]);
+  const [routeSteps, setRouteSteps] = useState([]);
 
-const mockOrders = [
-    { id: 1, customer: "לקוח 1", status: "בהמתנה", pickup: "תל אביב", dropoff: "ירושלים" },
-    { id: 2, customer: "לקוח 2", status: "בדרך", pickup: "חיפה", dropoff: "תל אביב" },
-    { id: 3, customer: "לקוח 3", status: "נמסר", pickup: "באר שבע", dropoff: "חיפה" }
-];
 
-const MapComponent = () => {
-    const [directions, setDirections] = useState(null);
-    const [map, setMap] = useState(null);
+  const handleGetRoute = async () => {
+    // איסוף כל הנקודות במסלול: חנויות ולקוחות
+    const waypoints = orders.flatMap(order => [order.store, order.customer]);
 
-    const calculateRoute = () => {
-        if (!map) return;
+    try {
+      const response = await axios.post("https://localhost:7013/api/directions/optimized-route", [
+        "ירושלים",
+        "תל אביב",
+        "חיפה",
+        "צפת"
+      ]);
+      
+      console.log("Response:", response.data);
+      const route = response.data.routes[0];
+      console.log(route);
+      const steps = route.legs.flatMap(leg => leg.steps.map(step => step.html_instructions));
+      setRouteSteps(steps);
+    } catch (err) {
+      console.error("שגיאה בקבלת מסלול:", err);
+      alert("שגיאה בקבלת מסלול");
+    }
+  };
 
-        const directionsService = new window.google.maps.DirectionsService();
+  return (
+    <div>
+      <h2>מסלול משלוחים</h2>
 
-        const waypoints = mockOrders
-            .filter(order => order.status !== "נמסר")
-            .map(order => ({ location: order.pickup, stopover: true }));
+      <div>
+        <label>כתובת התחלתית (משלוחן): </label>
+        <input value={origin} onChange={e => setOrigin(e.target.value)} />
+      </div>
 
-        if (waypoints.length < 2) return;
+      <h3>הזמנות:</h3>
+      {orders.map((order, index) => (
+        <div key={index}>
+          <div>🛍 חנות: {order.store}</div>
+          <div>📦 לקוח: {order.customer}</div>
+        </div>
+      ))}
 
-        const request = {
-            origin: waypoints[0].location,
-            destination: waypoints[waypoints.length - 1].location,
-            waypoints: waypoints.slice(1, -1),
-            travelMode: window.google.maps.TravelMode.DRIVING,
-        };
+      <button onClick={handleGetRoute}>חשב מסלול ממוטב</button>
 
-        directionsService.route(request, (result, status) => {
-            if (status === window.google.maps.DirectionsStatus.OK) {
-                setDirections(result);
-            } else {
-                console.error("Error fetching directions: ", status);
-            }
-        });
-    };
-    console.log("Google Maps API Key:", process.env.REACT_APP_GOOGLE_MAPS_API_KEY2);
-    return (
-        <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY2} libraries={libraries} language="he">
-            <h2>הזמנות הלקוח</h2>
-            <ul>
-                {mockOrders.map(order => (
-                    <li key={order.id}>
-                        {order.customer} - {order.status} (Pickup: {order.pickup}, Dropoff: {order.dropoff})
-                    </li>
-                ))}
-            </ul>
-            <GoogleMap
-                center={{ lat: 32.0853, lng: 34.7818 }}
-                zoom={10}
-                mapContainerStyle={{ width: "100%", height: "500px" }}
-                onLoad={(map) => setMap(map)}
-            >
-                {directions && <DirectionsRenderer directions={directions} />}
-            </GoogleMap>
-            <button onClick={calculateRoute}>חשב מסלול</button>
-        </LoadScript>
-    );
+      <h3>שלבי המסלול:</h3>
+      <ol>
+        {routeSteps.map((step, index) => (
+          <li key={index} dangerouslySetInnerHTML={{ __html: step }} />
+        ))}
+      </ol>
+    </div>
+  );
 };
 
-export default MapComponent;
+export default DeliverMyOrders;

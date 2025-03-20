@@ -11,15 +11,12 @@ import RestaurantDishes from '../pages/pageTSX/RestaurantDishes';
 import RestaurantPage from '../pages/pageTSX/RestaurantPage'
 
 const AppRouter = () => {
-  const city = "תל אביב"; // לדוגמה, ניתן לקבל זאת מ-Context או API
-  const courierId = "12345"; // לדוגמה, ניתן לקבל זאת מתוך User State
   return (
     <Router>
       <Routes>
-      {/* <Route path="/" element={<HomePage />} /> */}
-         <Route path="/" element={<HomePage />} /> 
+      <Route path="/" element={<HomePage />} />
+         {/* <Route path="/" element={<HomePage />} />  */}
         {/* <Route path="/" element={<RestaurantDishes />} /> */} */
-        {/* {<Route path="/" element={<DeliverMyOrders />} /> } */}
         <Route path="/RestaurantDishes" element={<RestaurantDishes />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup/customer" element={<CustomerSignUp />} />
