@@ -1,15 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore.Storage;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using Repository.Entity;
 using Repository.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Repository.Repositories
 {
-    public class DeliverRepository : IRepository<Deliver>
+    public class DeliverRepository : IRepository<Deliver>, IActiveDelivers<Deliver>
     {
         private readonly IContext context;
         public DeliverRepository(IContext context)
@@ -39,9 +41,9 @@ namespace Repository.Repositories
             return context.Delivers.ToList();
         }
 
-        public int GetIdByName(string name)
+        public List<Deliver> GetAllActiveDelivers()
         {
-            throw new NotImplementedException();
+            return context.Delivers.Where(d => d.IsActive).ToList();
         }
 
         public Deliver UpdateItem(int id, Deliver item)
@@ -62,6 +64,5 @@ namespace Repository.Repositories
             context.save();
             return deliver;
         }
-
     }
 }

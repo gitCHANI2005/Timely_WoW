@@ -61,7 +61,7 @@ namespace Service.Services
                 {
                     Email = customer.Email,
                     Role = Roles.customer,
-                    Name = customer.Name,              
+                    Id = customer.Id,              
                 };
             }
             return null;
@@ -76,7 +76,8 @@ namespace Service.Services
                 {
                     Email = deliver.Email,
                     Role = Roles.deliver,
-                    Name = deliver.Name,
+                    Id = deliver.Id,
+
                 };
             }
             return null;
@@ -91,7 +92,7 @@ namespace Service.Services
                 {
                     Email = owner.Email,
                     Role = Roles.owner,
-                    Name = owner.Name,
+                    Id = owner.Id,
 
                 };
             }
@@ -103,7 +104,7 @@ namespace Service.Services
             var admin = _configuration.GetSection("Admin");
             var adminEmail = admin["Email"];
             var adminPassword = admin["Password"];
-            var adminName = admin["Name"];
+            var adminId = admin["id"];
             Roles adminRole = Roles.admin;
 
             if (email == adminEmail && password == adminPassword)
@@ -112,7 +113,7 @@ namespace Service.Services
                  {
                       Email = email,
                       Role = adminRole,
-                      Name = adminName
+                      //Id = adminId,
                  };
             }          
               return null;

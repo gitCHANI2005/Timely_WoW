@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../pageCSS/RestaurantDishes.css';
 import { Link } from "react-router-dom";
-import Header from './Header.tsx';
 
 const RestaurantsPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -74,7 +73,6 @@ const RestaurantsPage = () => {
 
   return (
     <div className="restaurants-page">
-      <Header /> {/* הוספנו את ההדר פה */}
       
       <header className="search-header">
         <h2>מסעדות באזור {location}</h2>

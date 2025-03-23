@@ -1,0 +1,84 @@
+.owner-dashboard {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .view-stores-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .view-stores-button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-store-form {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .add-store-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .add-store-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-store-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-store-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .store-list {
+    margin-top: 20px;
+  }
+  
+  .store-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .store-list li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .store-list h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .store-list p {
+    margin: 5px 0;
+  }
+  

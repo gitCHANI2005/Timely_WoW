@@ -19,12 +19,14 @@ namespace Timely.Controllers
         private readonly IRepository<Owner> _ownerRepository;
         private readonly IService<Owner> _ownerService;
         private readonly JwtService _jwtService;
+        private readonly IRegisterUser<Owner, OwnerDto> _registerUser;
 
-        public OwnerController(IRepository<Owner> ownerRepository, JwtService jwtService, IService<Owner> ownerService)
+        public OwnerController(IRepository<Owner> ownerRepository, JwtService jwtService, IService<Owner> ownerService, IRegisterUser<Owner, OwnerDto> registerUser)
         {
             _ownerRepository = ownerRepository;
             _jwtService = jwtService;
             _ownerService = ownerService;
+            _registerUser = registerUser;
         }
 
         [HttpPost]
@@ -35,7 +37,7 @@ namespace Timely.Controllers
             {
                 Console.WriteLine("Email, password, and role are required.");
             }
-            Owner o = _ownerService.RegisterOwner(owner);
+            Owner o = _registerUser.RegisterUser(owner);
             return o;
         }
 

@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Service.Services
 {
-    public class DeliverService : IService<DeliverDto>
+    public class DeliverService : IService<DeliverDto>, IRegisterUser<Deliver, DeliverDto>
     {
         private readonly IMapper _mapper;
         private readonly IRepository<Deliver> _deliverRepository;
@@ -46,21 +46,17 @@ namespace Service.Services
             throw new NotImplementedException();
         }
 
-        public Deliver RegisterDeliver(DeliverDto deliver)
-        {
-            //string role = Roles.deliver + "";
-            Deliver d = _deliverRepository.AddItem(_mapper.Map<DeliverDto, Deliver>(deliver));
-            return d;
-        }
+        //public Deliver RegisterDeliver(DeliverDto deliver)
+        //{
+        //    //string role = Roles.deliver + "";
+        //    Deliver d = _deliverRepository.AddItem(_mapper.Map<DeliverDto, Deliver>(deliver));
+        //    return d;
+        //}
 
-        public Owner RegisterOwner(OwnerDto owner)
+        public Deliver RegisterUser(DeliverDto item)
         {
-            throw new NotImplementedException();
-        }
-
-        public Customer RegisterCustomer(CustomerDto customer)
-        {
-            throw new NotImplementedException();
+            Deliver deliver = _deliverRepository.AddItem(_mapper.Map<DeliverDto, Deliver>(item));
+            return deliver;
         }
     }
 }

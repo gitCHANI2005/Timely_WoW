@@ -20,7 +20,7 @@ namespace Repository.Entity
         public int Id { get; set; }
         public int CustomerId { get; set; }
         [ForeignKey("CustomerId")]
-        public virtual Customer? customer { get; set; }
+        public virtual Customer? Customer { get; set; }
         public int DeliverId { get; set; }
         [ForeignKey("DeliverId")]
         public virtual Deliver? deliver { get; set; }

@@ -69,15 +69,5 @@ namespace Timely.Controllers
             _cityrepository.DeleteItem(id);
         }
 
-        [HttpGet("GetIdByName/{name}")]
-        public ActionResult<int?> GetIdByName(string name)
-        {
-            var cityId = _cityrepository.GetIdByName(name);
-            if (cityId == null)
-            {
-                return NotFound("City not found");
-            }
-            return cityId;
-        }
     }
 }

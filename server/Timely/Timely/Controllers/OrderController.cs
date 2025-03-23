@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Repository.Entity;
 using Repository.Interfaces;
 using Repository.Repositories;
+using Service.Interfaces;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -13,9 +14,11 @@ namespace Timely.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IRepository<Order> _orderRepository;
-        public OrderController(IRepository<Order> orderRepository)
+        private readonly IOrders<Order> _orders;
+        public OrderController(IRepository<Order> orderRepository, IOrders<Order> orders)
         {
-            _orderRepository=orderRepository;
+            _orderRepository = orderRepository;
+            _orders = orders;
         }
         [HttpGet]
         public List<Order> Get()
@@ -23,7 +26,6 @@ namespace Timely.Controllers
             return _orderRepository.GetAll();
         }
 
-        // GET api/<OrderController>/5
         [HttpGet("{id}")]
         public Order Get(int id)
         {
@@ -31,7 +33,6 @@ namespace Timely.Controllers
         }
 
         [HttpPost]
-        //[Authorize(Policy = "CustomerOnly")]
         public ActionResult<Order> Post([FromBody] Order newOrder)
         {
             if (newOrder == null)
@@ -49,7 +50,6 @@ namespace Timely.Controllers
             }
         }
 
-        // PUT api/<OrderController>/5
         [HttpPut("{id}")]
         [Authorize(Policy = "CustomerOnly")]
         public Order Put(int id, [FromBody] Order updateOrder)
@@ -59,7 +59,19 @@ namespace Timely.Controllers
             return existingDeliver;
         }
 
-        // DELETE api/<OrderController>/5
+        [HttpGet("by-deliver/{DeliverId}")]
+        //[Authorize(Policy = "DeliverOnly")]
+        public List<Order> GetOrdersById(int DeliverId)
+        {
+            List<Order> orders = _orders.GetOrdersByDeliverId(DeliverId);
+            if (orders == null || !orders.Any())
+            {
+                Console.WriteLine("לא נמצאו הזמנות למשלוחן זה.");
+            }
+            return orders;
+        }
+
+
         [HttpDelete("{id}")]
         [Authorize(Policy = "CustomerOnly")]
         public void Delete(int id)

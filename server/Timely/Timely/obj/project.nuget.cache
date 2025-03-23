@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4nQx0cAvKbHEpjpu2I/OxJsIMTsXDwagvuWZYn3CZd4baNINIApHtOTt4s0fBqUKl2/O+cRhQNoUnDTJKQrjmA==",
+  "dgSpecHash": "cFB4AgDf3faJdsSYtv0SXImA2THNAheWQbFbChectmcZmu4ByH6zvymzlRC7tvKeSu8ntOANOQi+Ihf9b2ch5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\תמר\\Timely_WoW\\server\\Timely\\Timely\\Timely.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\תמר\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\תמר\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\תמר\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\תמר\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\תמר\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\תמר\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\תמר\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

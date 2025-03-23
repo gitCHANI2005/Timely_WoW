@@ -70,10 +70,6 @@ namespace Service.Services
 
         }
 
-        Deliver IService<CategoryDto>.RegisterDeliver(DeliverDto item)
-        {
-            throw new NotImplementedException();
-        }
     }
 
 }

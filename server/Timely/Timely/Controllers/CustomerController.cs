@@ -18,13 +18,15 @@ namespace Timely.Controllers
     {
         private readonly IRepository<Customer> _customerrepository;
         private readonly JwtService _jwtService;
-        private readonly IService<Customer> _customerService;
+        //private readonly IService<Customer> _customerService;
+        private readonly IRegisterUser<Customer, CustomerDto> _registerUser;
 
-        public CustomerController(IRepository<Customer> customerrepository, JwtService jwtService, IService<Customer> customerService)
+        public CustomerController(IRepository<Customer> customerrepository, JwtService jwtService, IRegisterUser<Customer, CustomerDto> registerUser)
         {
             _customerrepository = customerrepository;
             _jwtService = jwtService;
-            _customerService= customerService;
+            //_customerService = customerService;
+            _registerUser = registerUser;
         }
 
         [HttpPost]
@@ -35,7 +37,7 @@ namespace Timely.Controllers
                 Console.WriteLine("Email, password, and role are required.");
             }
 
-            Customer c = _customerService.RegisterCustomer(customer);
+            Customer c = _registerUser.RegisterUser(customer);
             return c;
         }
 

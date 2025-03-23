@@ -758,3 +758,4 @@ C:\Users\תמר\Timely_WoW\server\Timely\Timely\obj\Debug\net6.0\refint\Timely.d
 C:\Users\תמר\Timely_WoW\server\Timely\Timely\obj\Debug\net6.0\Timely.pdb
 C:\Users\תמר\Timely_WoW\server\Timely\Timely\obj\Debug\net6.0\Timely.genruntimeconfig.cache
 C:\Users\תמר\Timely_WoW\server\Timely\Timely\obj\Debug\net6.0\ref\Timely.dll
+C:\Users\תמר\Timely_WoW\server\Timely\Timely\bin\Debug\net6.0\Newtonsoft.Json.dll

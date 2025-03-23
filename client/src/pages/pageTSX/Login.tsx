@@ -57,9 +57,7 @@ const Login = () => {
 
       const decodedToken = jwtDecode<MyJwtPayload>(token);
       console.log("Decoded Token:", decodedToken);
-      console.log(decodedToken.unique_name);
 
-      localStorage.setItem("userName", decodedToken.unique_name);
 
       // הפנייה לפי תפקיד המשתמש
       switch (decodedToken.role) {
@@ -70,10 +68,10 @@ const Login = () => {
           navigate("/RestaurantDishes");
           break;
         case "owner":
-          navigate("/managerDashboard");
+          navigate("/OwnerRestaurant");
           break;
         case "deliver":
-          navigate("/managerDashboard");
+          navigate("/DeliverMyOrders");
           break;
         default:
           navigate("/home");

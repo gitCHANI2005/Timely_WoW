@@ -21,7 +21,7 @@ namespace Service.Services
         }
 
         // פונקציה ליצירת טוקן עם תוקף של שעה
-        public string GenerateToken(string userName, string userRole, string userEmail)
+        public string GenerateToken(string userEmail, string userRole, int userId)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             if (string.IsNullOrEmpty(_secretKey))
@@ -37,9 +37,9 @@ namespace Service.Services
             {
                 Subject = new ClaimsIdentity(new[]
                 {
-            new Claim(ClaimTypes.Name, userName),
+            new Claim(ClaimTypes.Email, userEmail),
             new Claim(ClaimTypes.Role, userRole),
-            new Claim(ClaimTypes.Email, userEmail)
+            new Claim("user_id", userId.ToString())
             }),
                 Expires = DateTime.UtcNow.AddHours(1),
 

@@ -15,11 +15,5 @@ namespace Service.Interfaces
         T addItem(T item);
         T Update(int id, T item);
         void Delete(int id);
-        Deliver RegisterDeliver(DeliverDto item);
-        Owner RegisterOwner(OwnerDto owner);
-        Customer RegisterCustomer(CustomerDto customer);
-
-
-
     }
 }

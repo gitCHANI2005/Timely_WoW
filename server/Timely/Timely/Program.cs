@@ -12,6 +12,7 @@ using Service.Interfaces;
 using Service.Services;
 using System.Security.Claims;
 using System.Text;
+using Timely.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,12 +35,23 @@ builder.Services.AddScoped<IService<OrderDto>, OrderService>();
 builder.Services.AddScoped<IService<OwnerDto>, OwnerService>();
 builder.Services.AddScoped<IService<StoreDto>, StoreService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IRegisterUser<Customer, CustomerDto>, CustomerService>();
+builder.Services.AddScoped<IRegisterUser<Deliver, DeliverDto>, DeliverService>();
+builder.Services.AddScoped<IRegisterUser<Owner, OwnerDto>, OwnerService>();
+
+
+
 
 // Additional Scoped Services
 builder.Services.AddScoped<CustomerService>();
 builder.Services.AddScoped<IRepository<Owner>, OwnerRepository>();
 builder.Services.AddScoped<IRepository<Deliver>, DeliverRepository>();
 builder.Services.AddScoped<IRepository<Customer>, CustomerRepository>();
+builder.Services.AddScoped<IRepository<Order>, OrderRepository>();
+builder.Services.AddScoped<IOrders<Order>, OrderRepository>();
+
+
+builder.Services.AddSignalR();
 
 builder.Services.AddServiceExtension();
 
@@ -116,7 +128,7 @@ builder.Services.AddLogging();
 
 var app = builder.Build();
 
-app.UseCors("AllowSpecificOrigins");
+app.UseCors("MyAllowSpecificOrigins");
 
 // Swagger and Development Environment Configuration
 if (app.Environment.IsDevelopment())
@@ -130,6 +142,11 @@ app.UseHttpsRedirection();
 app.UseCors(MyAllowSpecificOrigins);
 app.UseAuthentication();
 app.UseAuthorization();
+
+// SignalR - הגדרת נתיב ה-Hub
+app.UseWebSockets();
+app.MapHub<ChatHub>("/chatHub");  // הוספתי את זה כאן
+
 app.MapControllers();
 
 app.Run();

@@ -42,35 +42,11 @@ namespace Service.Services
             return _mapper.Map<StoreDto>(_repository.Get(id));
         }
 
-        public Customer RegisterCustomer(CustomerDto customer)
-        {
-            throw new NotImplementedException();
-        }
-
-        public StoreDto RegisterDeliver(DeliverDto item)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Deliver RegisterDeliver(StoreDto item)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Owner RegisterOwner(OwnerDto owner)
-        {
-            throw new NotImplementedException();
-        }
-
         public StoreDto Update(int id, StoreDto item)
         {
             return _mapper.Map<StoreDto>(_repository.UpdateItem(id, _mapper.Map<Store>(item)));
 
         }
 
-        Deliver IService<StoreDto>.RegisterDeliver(DeliverDto item)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

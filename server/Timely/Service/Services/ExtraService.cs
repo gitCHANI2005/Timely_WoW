@@ -31,34 +31,10 @@ namespace Service.Services
             throw new NotImplementedException();
         }
 
-        public Customer RegisterCustomer(CustomerDto customer)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ExtraDto RegisterDeliver(DeliverDto item)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Deliver RegisterDeliver(ExtraDto item)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Owner RegisterOwner(OwnerDto owner)
-        {
-            throw new NotImplementedException();
-        }
-
         public ExtraDto Update(int id, ExtraDto item)
         {
             throw new NotImplementedException();
         }
 
-        Deliver IService<ExtraDto>.RegisterDeliver(DeliverDto item)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

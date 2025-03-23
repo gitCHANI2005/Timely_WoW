@@ -4,6 +4,7 @@ using Repository.Entity;
 using Repository.Interfaces;
 using Service.Dtos;
 using Service.Interfaces;
+using Service.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,15 +16,19 @@ namespace Timely.Controllers
 
     {
         private readonly IRepository<Deliver> _deliverrepository;
+        private readonly IActiveDelivers<Order> _activedelivers;
         private readonly IUserService _userService;
         private readonly IService<DeliverDto> _deliverService;
+        private readonly IRegisterUser<Deliver, DeliverDto> _registerUser;
 
 
-        public DeliverController(IRepository<Deliver> deliverrepository, IUserService userService, IService<DeliverDto> deliverService)
+        public DeliverController(IRepository<Deliver> deliverrepository, IUserService userService, IService<DeliverDto> deliverService, IRegisterUser<Deliver, DeliverDto> registerUser, IActiveDelivers<Order> activedelivers)
         {
             _deliverrepository = deliverrepository;
             _userService = userService;
-            _deliverService = deliverService;   
+            _deliverService = deliverService;
+            _registerUser = registerUser;
+            _activedelivers = activedelivers;
         }
 
         [HttpPost]
@@ -34,7 +39,7 @@ namespace Timely.Controllers
                 Console.WriteLine("gby"); ;
             }
 
-            Deliver d = _deliverService.RegisterDeliver(deliver);
+            Deliver d = _registerUser.RegisterUser(deliver);
             return d;
         }
 

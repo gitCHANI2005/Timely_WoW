@@ -23,7 +23,8 @@ namespace Timely.Controllers
             var _user = _userService.ValidateUser(user.Email, user.Password);
             if (_user == null)
                 return "user can not be null";
-            string token = _jwtService.GenerateToken(_user.Name, _user.Role.ToString(), _user.Email);
+            Console.WriteLine(_user.Id);
+            string token = _jwtService.GenerateToken(_user.Email, _user.Role.ToString(), _user.Id);
 
             return token;
         }

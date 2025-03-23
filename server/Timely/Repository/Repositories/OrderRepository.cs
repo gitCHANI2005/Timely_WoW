@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Repositories
 {
-    internal class OrderRepository : IRepository<Order>
+    public class OrderRepository : IRepository<Order>, IOrders<Order>
     {
         private readonly IContext _context;
         public OrderRepository(IContext context)
@@ -45,11 +45,21 @@ namespace Repository.Repositories
             throw new NotImplementedException();
         }
 
+        public List<Order> GetOrdersByDeliverId(int DeliverId)
+        {
+            return _context.Orders
+                     .Where(order => order.DeliverId == DeliverId &&
+                            (order.status == OrderStatus.invited ||
+                             order.status == OrderStatus.preparing ||
+                            order.status == OrderStatus.ready))
+                     .ToList();
+        }
+
         public Order UpdateItem(int id, Order item)
         {
             Order order = Get(id);
             order.CustomerId = item.CustomerId; 
-            order.customer = item.customer;
+            order.Customer = item.Customer;
             order.DeliverId=item.DeliverId;
             order.deliver = item.deliver;
             order.StoreId = item.StoreId;
