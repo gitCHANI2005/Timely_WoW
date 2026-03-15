@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import * as signalR from "@microsoft/signalr"; // יבוא של ספריית SignalR
+import * as signalR from "@microsoft/signalr"; // Import SignalR library
 
-// הגדרת טיפוס להזמנה
+// Define type for Order
 interface Order {
   address: string;   
   customerName: string; 
@@ -11,22 +11,22 @@ interface Order {
   city: string;
 }
 
-// הגדרת טיפוס למשלוחן
+// Define type for Delivery Driver
 interface Deliver {
   id: number;
   name: string;
-  city: string;  // העיר שבה המשלוחן פועל
+  city: string;  // The city where the delivery driver operates
 }
 
-// ההוק משתמש ב-SignalR ומחזיר את רשימת ההזמנות
+// This hook uses SignalR and returns the list of orders
 const useSignal = (area: string, deliveryDrivers: Deliver[]): { orders: Order[] } => {
-  const [orders, setOrders] = useState<Order[]>([]); // יצירת מצב להזמנות
-  const [isConnected, setIsConnected] = useState<boolean>(false); // מצב חיבור ל-SignalR
+  const [orders, setOrders] = useState<Order[]>([]); // Create state for orders
+  const [isConnected, setIsConnected] = useState<boolean>(false); // SignalR connection state
 
   useEffect(() => {
-    // אם האזור לא תקין (ריק או null), אל נתחבר ל-SignalR
+    // If the area is invalid (empty or null), do not connect to SignalR
     if (!area) {
-      console.error("הערך של האזור לא תקין.");
+      console.error("Invalid area value.");
       return;
     }
 
@@ -42,45 +42,45 @@ const useSignal = (area: string, deliveryDrivers: Deliver[]): { orders: Order[] 
     newConnection
       .start()
       .then(() => {
-        console.log("התחבר ל-SignalR בהצלחה");
-        setIsConnected(true);  // עדכון מצב החיבור
-        return newConnection.invoke("JoinGroup", area);  // הצטרפות לקבוצה רק אם יש ערך תקין
+        console.log("Successfully connected to SignalR");
+        setIsConnected(true);  // Update connection state
+          return newConnection.invoke("JoinGroup", area);  // Join group only if area is valid
       })
       .catch((err) => {
-        console.error("שגיאה בחיבור ל-SignalR: ", err);
-        setIsConnected(false);  // אם יש שגיאה, מצב החיבור נשאר false
+        console.error("Error connecting to SignalR: ", err);
+        setIsConnected(false);  // If there is an error, keep connection state as false
       });
 
     newConnection.on("NewOrder", (order: Order) => {
       setOrders((prevOrders) => [...prevOrders, order]);
 
-      // שליחת התראה למשלוחנים הרלוונטיים
+      // Send notification to relevant delivery drivers
       sendNotificationsForOrder(order);
     });
 
     return () => {
-      newConnection.stop().then(() => console.log("התנתק מ-SignalR"));
+      newConnection.stop().then(() => console.log("Disconnected from SignalR"));
     };
 
-  }, [area, deliveryDrivers]); // בכל פעם שהאזור או המשלוחנים משתנים, החיבור מתחדש
+  }, [area, deliveryDrivers]); // Reconnect whenever area or delivery drivers change
 
-  // פונקציה לשליחת התראות למשלוחנים
+  // Function to send notifications to delivery drivers
   const sendNotificationsForOrder = (order: Order) => {
-    // פילטרים את המשלוחנים לפי העיר שהוזנה בהזמנה
+    // Filter delivery drivers by the city specified in the order
     const relevantDrivers = deliveryDrivers.filter(driver => driver.city === order.city);
   
-    // שולחים התראה לכל המשלוחנים שתואמים לעיר
+    // Send notification to all delivery drivers matching the city
     relevantDrivers.forEach(driver => {
-      sendNotification(driver.id, `הזמנה חדשה מ-${order.customerName} בעיר ${order.city}, פריטים: ${order.items.join(", ")}`);
+      sendNotification(driver.id, `New order from ${order.customerName} in ${order.city}, items: ${order.items.join(", ")}`);
     });
   };
 
-  // פונקציה לשליחת התראה למשלוחן
+  // Function to send notification to a delivery driver
   const sendNotification = (driverId: number, message: string) => {
-    console.log(`שלח התראה למשלוחן ${driverId}: ${message}`);
+    console.log(`Sent notification to driver ${driverId}: ${message}`);
   };
 
-  return { orders }; // מחזיר את רשימת ההזמנות
+  return { orders }; // Return the list of orders
 };
 
 export default useSignal;

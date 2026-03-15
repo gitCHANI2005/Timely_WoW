@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../pageCSS/AllOrders.css"; // קובץ העיצוב
+import "../pageCSS/AllOrders.css"; // Style file
 
 interface Order {
   id: number;
@@ -9,7 +9,7 @@ interface Order {
   status: string;
 }
 
-// יצירת נתונים מדומים (Mock Data)
+// Create mock data
 const mockOrders: Order[] = [
   { id: 1, customerName: "דוד לוי", address: "רחוב הרצל 10", city: "תל אביב", status: "pending" },
   { id: 2, customerName: "רונית כהן", address: "רחוב בן גוריון 5", city: "חיפה", status: "pending" },
@@ -18,7 +18,6 @@ const mockOrders: Order[] = [
 
 const AllOrders: React.FC = () => {
   const [orders, setOrders] = useState<Order[]>(mockOrders);
-
   const handleTakeOrder = (orderId: number) => {
     alert(`הזמנה ${orderId} נלקחה!`);
     setOrders((prevOrders) => prevOrders.filter((order) => order.id !== orderId));

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import "../pageCSS/Signup.css"; // סגנון העיצוב לדף
+import "../pageCSS/Signup.css"; // Style for the page
 
-// טיפוס עיר
+// City type
 interface City {
   id: string;
   name: string;
 }
-
+  
 const CustomerSignUp = () => {
   const [formData, setFormData] = useState({
     Name: '',
@@ -26,10 +26,10 @@ const CustomerSignUp = () => {
     CardCvv: ''
   });
 
-  const [cities, setCities] = useState<City[]>([]); // רשימת הערים מהשרת
+  const [cities, setCities] = useState<City[]>([]); // List of cities from server
   const [message, setMessage] = useState('');
-
-  // טעינת רשימת הערים מהשרת
+  
+  // Load list of cities from server
   useEffect(() => {
     const fetchCities = async () => {
       try {

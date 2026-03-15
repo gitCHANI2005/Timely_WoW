@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from '../pages/pageTSX/PageHome';
-import Login from '../pages/pageTSX/Login'; // נתיב לדף ההרשמה
+import Login from '../pages/pageTSX/Login';
 import CustomerSignUp from '../pages/pageTSX/CustomerSignUp';
 import BusinessSignUp from '../pages/pageTSX/BusinessSignUp';
 import DeliverySignUp from '../pages/pageTSX/DeliverySignUp';

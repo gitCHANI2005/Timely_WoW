@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../pageCSS/Signup.css"; // סגנון העיצוב לדף
+import "../pageCSS/Signup.css"; // Styling for the page
 
 const BusinessSignUp = () => {
   const [formData, setFormData] = useState({
@@ -11,7 +11,7 @@ const BusinessSignUp = () => {
     Role: 2,
   });
 
-  const [message, setMessage] = useState<string | null>(null); // סטייט להודעות
+  const [message, setMessage] = useState<string | null>(null); // State for messages
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -20,7 +20,7 @@ const BusinessSignUp = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setMessage(null); // מנקה את ההודעה לפני שליחה חדשה
+    setMessage(null); // Clear the message before a new submission
     
     try {
       const response = await fetch(`https://localhost:7013/api/Owner`, {
@@ -43,7 +43,7 @@ const BusinessSignUp = () => {
       
       setMessage("✅ ההרשמה בוצעה בהצלחה! ברוך הבא!");
 
-      // ניתן לנקות את השדות לאחר ההצלחה
+      // Clear the fields after successful submission
       setFormData({
         Name: '',
         Phone: '',
@@ -71,7 +71,7 @@ const BusinessSignUp = () => {
         <button type="submit">הירשם</button>
       </form>
 
-      {/* הצגת הודעה בהתאם לתוצאה */}
+      {/* Display a message according to the result */}
       {message && <p className={`message ${message.includes("שגיאה") ? "error" : "success"}`}>{message}</p>}
     </div>
   );

@@ -20,7 +20,7 @@ export default function RestaurantPage() {
     const fetchRestaurantData = async () => {
       try {
         const res = await axios.get(`https://localhost:7013/api/Store/${RestaurantId}`);
-        setRestaurant(res.data); // שמירת נתוני המסעדה
+        setRestaurant(res.data); 
       } catch (error) {
         console.error("שגיאה בטעינת המסעדה:", error);
       }
@@ -29,7 +29,7 @@ export default function RestaurantPage() {
     const fetchDishesData = async () => {
       try {
         const res = await axios.get(`https://localhost:7013/api/MenuDose/getByIdRestaurant/${RestaurantId}`);
-        setDishes(res.data); // שמירת נתוני המנות
+        setDishes(res.data);
       } catch (error) {
         console.error("שגיאה בטעינת המנות:", error);
       }
@@ -42,8 +42,8 @@ export default function RestaurantPage() {
 const toggleLike = (dishId: string) => {
   setLikedDishes((prevLikedDishes) => 
     prevLikedDishes.includes(dishId)
-      ? prevLikedDishes.filter(id => id !== dishId) // הסרת מנה מהרשימה
-      : [...prevLikedDishes, dishId] // הוספת מנה לרשימה
+      ? prevLikedDishes.filter(id => id !== dishId) // delete the dish from the list if it's already liked
+      : [...prevLikedDishes, dishId] // add the dish to the list if it's not liked yet
   );
 };
 

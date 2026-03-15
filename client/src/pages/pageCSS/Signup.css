@@ -21,18 +21,18 @@
 
 /* Input fields */
 input, select {
-    width: 95%; /* שיניתי את הרוחב ל-80% */
-    padding: 15px; /* הקטנתי את הריווח הפנימי */
-    margin: 10px 0; /* הוספתי ריווח בין השדות */
+    width: 95%; 
+    padding: 15px; 
+    margin: 10px 0; 
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 16px;
     transition: border-color 0.3s ease-in-out;
-    direction: rtl; /* הגדרתי את כיוון הטקסט מימין לשמאל */
+    direction: rtl; 
 }
 
 input:focus, select:focus {
-    border-color: #4FB3C2; /* תכלת */
+    border-color: #4FB3C2; 
     outline: none;
 }
 

@@ -41,14 +41,14 @@ const Login = () => {
         return;
       }
 
-      // קבלת הטוקן כמחרוזת
+      // Receive the token as a string
       const token = await response.text();
       console.log("Received Token:", token);
 
-      // שמירה של הטוקן ב-localStorage
+      // Save the token in localStorage
       localStorage.setItem("token", token);
 
-      // פענוח הטוקן
+      // Decode the token
       interface MyJwtPayload {
         role: string;
         unique_name: string;
@@ -58,8 +58,7 @@ const Login = () => {
       const decodedToken = jwtDecode<MyJwtPayload>(token);
       console.log("Decoded Token:", decodedToken);
 
-
-      // הפנייה לפי תפקיד המשתמש
+      // Navigate based on the user's role
       switch (decodedToken.role) {
         case "admin":
           navigate("/adminDashboard");

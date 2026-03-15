@@ -22,14 +22,14 @@ const HomePage = () => {
     fetch(`https://localhost:7013/api/Store`)
       .then((response) => response.json())
       .then((data) => {
-        console.log("Data received:", data); // הדפסת הנתונים שהתקבלו
+        console.log("Data received:", data); // print the raw data to verify the structure and content
   
         const formattedData = data.map((restaurant) => ({
           ...restaurant,
           image: restaurant.image ? `data:image/png;base64,${restaurant.image}` : null,
         }));
   
-        console.log("Formatted Data:", formattedData); // הדפסת הנתונים לאחר עיבוד
+        console.log("Formatted Data:", formattedData); // print the formatted data to verify the image conversion
   
         setRestaurants(formattedData);
       })
@@ -61,10 +61,11 @@ const HomePage = () => {
           lon: place.geometry.location.lng(),
         };
   
-        localStorage.setItem('userLocation', JSON.stringify(selectedLocation)); // שמירה ב-localStorage
-        navigate('/RestaurantDishes'); // מעבר לדף החדש
+        localStorage.setItem('userLocation', JSON.stringify(selectedLocation)); // store the location in localStorage for later use     
+        navigate('/RestaurantDishes'); // navigate to the restaurant dishes page after setting the location
       } else {
         setError('כתובת לא תקפה, נסו שוב');
+
       }
     }
   };

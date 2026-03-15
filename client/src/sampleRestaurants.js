@@ -7,7 +7,7 @@ const sampleRestaurants = [
       name: 'פיצה סושי',
       category: 'פיצה',
       location: 'תל אביב',
-      image: pizaSuzi, // הקפד לשים תמונה קיימת
+      image: pizaSuzi, // Make sure to use an existing image
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const sampleRestaurants = [
       location: 'ירושלים',
       image: cafeBat,
     },
-    // הוסף מסעדות נוספות כאן...
+    // Add more restaurants here...
   ];
   export default sampleRestaurants;
   

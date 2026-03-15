@@ -1,41 +1,41 @@
 import React, { useState, useEffect } from "react";
 
-// הגדרת טיפוס מותאם אישית בשם Time
+// Define a custom type named Time
 interface Time {
   hours: number;
   minutes: number;
 }
 
 const OwnerRestaurant: React.FC = () => {
-  const [stores, setStores] = useState<any[]>([]); // רשימת החנויות/מסעדות
-  const [showAddStoreForm, setShowAddStoreForm] = useState(false); // האם להציג את טופס הוספת חנות
+  const [stores, setStores] = useState<any[]>([]); // List of stores/restaurants
+  const [showAddStoreForm, setShowAddStoreForm] = useState(false); // Whether to show the add store form
   const [newStore, setNewStore] = useState({
     Name: "",
     Address: "",
     city: { name: "" },
-    WeekOpen: undefined as Time | undefined, // שדה טיפוס חדש
-    WeekClose: undefined as Time | undefined, // שדה טיפוס חדש
-    FridayOpen: undefined as Time | undefined, // שדה טיפוס חדש
-    FridayClose: undefined as Time | undefined, // שדה טיפוס חדש
-    ShabbatOpen: undefined as Time | undefined, // שדה טיפוס חדש
-    ShabbatClose: undefined as Time | undefined, // שדה טיפוס חדש
+    WeekOpen: undefined as Time | undefined, // New typed field
+    WeekClose: undefined as Time | undefined, // New typed field
+    FridayOpen: undefined as Time | undefined, // New typed field
+    FridayClose: undefined as Time | undefined, // New typed field
+    ShabbatOpen: undefined as Time | undefined, // New typed field
+    ShabbatClose: undefined as Time | undefined, // New typed field
   });
 
-  // פונקציה להמיר Time לפורמט של שעה:דקה (HH:mm)
+  // Function to convert Time to HH:mm string format
   const timeToString = (time: Time | undefined): string => {
-    if (!time) return ''; // אם אין ערך אז נחזיר ריק
-    const hours = time.hours.toString().padStart(2, '0'); // שמים אפס אם השעה קטנה מ-10
-    const minutes = time.minutes.toString().padStart(2, '0'); // שמים אפס אם הדקות קטנות מ-10
+    if (!time) return ''; // Return empty string if no value exists
+    const hours = time.hours.toString().padStart(2, '0'); // Add leading zero if hour is less than 10
+    const minutes = time.minutes.toString().padStart(2, '0'); // Add leading zero if minutes are less than 10
     return `${hours}:${minutes}`;
   };
 
-  // דמוי חיבור ל-API לקבלת רשימת החנויות
+  // Simulated API connection to fetch the list of stores
   useEffect(() => {
     const fetchStores = async () => {
       try {
-        const response = await fetch("/api/stores"); // כתובת ה-API שלך
+        const response = await fetch("/api/stores"); // Your API endpoint
         const data = await response.json();
-        setStores(data); // עדכון הסטייט עם הנתונים שהתקבלו
+        setStores(data); // Update state with the received data
       } catch (error) {
         console.error("שגיאה בטעינת החנויות:", error);
       }
@@ -44,7 +44,7 @@ const OwnerRestaurant: React.FC = () => {
     fetchStores();
   }, []);
 
-  // פונקציה להוספת חנות חדשה
+  // Function to add a new store
   const addStore = async () => {
     try {
       const response = await fetch("/api/stores", {
@@ -52,13 +52,13 @@ const OwnerRestaurant: React.FC = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(newStore), // שולחים את המידע של החנות
+        body: JSON.stringify(newStore), // Send the store data
       });
 
       if (response.ok) {
         const addedStore = await response.json();
-        setStores([...stores, addedStore]); // הוספת החנות החדשה לרשימה
-        setShowAddStoreForm(false); // סגירת הטופס לאחר הוספת החנות
+        setStores([...stores, addedStore]); // Add the new store to the list
+        setShowAddStoreForm(false); // Close the form after adding the store
       } else {
         console.error("שגיאה בהוספת החנות");
       }
@@ -129,7 +129,7 @@ const OwnerRestaurant: React.FC = () => {
               })
             }
           />
-          {/* הוספת שדות נוספים לפי הצורך */}
+          {/* Add more fields as needed */}
 
           <button onClick={addStore}>הוסף חנות</button>
         </div>

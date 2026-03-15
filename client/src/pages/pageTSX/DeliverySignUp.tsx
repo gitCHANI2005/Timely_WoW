@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import "../pageCSS/Signup.css"; // סגנון העיצוב לדף
+import "../pageCSS/Signup.css"; // Styling for the page
 
-// הגדרת טיפוס לעיר
+// Define a type for a city
 interface City {
   id: string;
   name: string;
@@ -18,23 +18,23 @@ const DeliverySignUp = () => {
     DateOfBirth: '',
     IsActive: true,
     cityName: '',
-    cityId: '',  // שדה מוסתר לאחסון ה-ID של העיר
+    cityId: '',  // Hidden field to store the city ID
     NumOfCar: '',
     BankNumber: '',
     BankAccount: '',
     BankBranch: '',
   });
 
-  const [cities, setCities] = useState<City[]>([]); // רשימת הערים מהשרת
+  const [cities, setCities] = useState<City[]>([]); // List of cities from the server
   const [message, setMessage] = useState('');
 
-  // טעינת רשימת הערים מהשרת
+  // Load the list of cities from the server
   useEffect(() => {
     const fetchCities = async () => {
       try {
         const response = await fetch(`https://localhost:7013/api/City`);
         if (!response.ok) throw new Error("שגיאה בטעינת ערים");
-        const data: City[] = await response.json(); // טיפוס מפורש לרשימת הערים
+        const data: City[] = await response.json(); // Explicit typing for the city list
         setCities(data);
       } catch (error) {
         console.error("❌ שגיאה בטעינת הערים:", error);
@@ -48,12 +48,12 @@ const DeliverySignUp = () => {
     const { name, value } = e.target;
     
     if (name === "cityName") {
-      // עדכון ישיר של ה-ID של העיר בהתאם לשם העיר שנבחר
+      // Directly update the city ID according to the selected city name
       const selectedCity = cities.find(city => city.name === value);
       setFormData(prevData => ({
         ...prevData,
         cityName: value,
-        cityId: selectedCity ? selectedCity.id : '', // אם לא נמצאה עיר, שמור מחרוזת ריקה
+        cityId: selectedCity ? selectedCity.id : '', // If no city is found, store an empty string
       }));
     } else {
       setFormData(prevData => ({
@@ -87,7 +87,7 @@ const DeliverySignUp = () => {
       if (token) {
         localStorage.setItem('token', token);
         setMessage('✅ נרשמת בהצלחה!');
-        //console.log("✅ טוקן נשמר:", token);
+        // console.log("✅ Token saved:", token);
       } else {
         setMessage('🚨 שגיאה: השרת לא החזיר טוקן.');
       }
@@ -109,7 +109,7 @@ const DeliverySignUp = () => {
     <input type="email" name="Email" value={formData.Email} onChange={handleChange} placeholder="אימייל" required />
     <input type="date" name="DateOfBirth" value={formData.DateOfBirth} onChange={handleChange} placeholder="תאריך לידה" />
     
-    {/* בחירת עיר מתוך הרשימה */}
+    {/* Select a city from the list */}
     <select name="cityName" value={formData.cityName} onChange={handleChange} required>
       <option value="">בחר עיר</option>
       {cities.map(city => (
